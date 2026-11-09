@@ -23,7 +23,7 @@ jobs:
       - name: Sync watched GitHub projects
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 scripts/sync_apps.py
+        run: python3 Scripts/sync_apps.py
 
       - name: Commit any changes
         run: |
