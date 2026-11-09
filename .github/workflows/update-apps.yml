@@ -1,5 +1,9 @@
 name: Update apps
 
+# Checks the projects listed in sync.json for new GitHub releases
+# (once a day, and whenever you press "Run workflow" on the Actions tab)
+# and updates apps.json so FlareStore sees the new version.
+
 on:
   schedule:
     - cron: "23 14 * * *"
@@ -7,6 +11,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   sync:
@@ -36,3 +41,13 @@ jobs:
             git commit -m "Sync app versions from upstream releases"
             git push
           fi
+
+      - name: Open a notification issue
+        if: hashFiles('update-report.md') != ''
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "App update ready in your repo" \
+            --body-file update-report.md
