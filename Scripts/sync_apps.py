@@ -117,11 +117,12 @@ def sync_one(source, watch_entry):
     ]
     if not assets:
         print(f"  no .ipa asset in release {tag}; skipped")
-        return False
+        return False, None
     asset = max(assets, key=lambda a: a["size"])
 
     app = find_app(source, watch_entry)
     changed = False
+    update = None
     current = None
     if app and app.get("versions"):
         current = app["versions"][0].get("version")
@@ -157,11 +158,17 @@ def sync_one(source, watch_entry):
             entry["minOSVersion"] = min_os
         app.setdefault("versions", []).insert(0, entry)
         changed = True
+        update = {
+            "name": app["name"],
+            "from": current,
+            "to": version,
+            "url": asset["browser_download_url"],
+        }
         print(f"  updated: {current or 'none'} -> {version}")
 
     if app is not None and fix_icon_url(app):
         changed = True
-    return changed
+    return changed, update
 
 
 def main():
@@ -170,10 +177,17 @@ def main():
     with open(APPS_JSON, encoding="utf-8") as fh:
         source = json.load(fh)
 
+    report_path = os.path.join(ROOT, "update-report.md")
+    if os.path.exists(report_path):
+        os.remove(report_path)
+
     changed = False
+    updates = []
     for watch_entry in watch:
-        if sync_one(source, watch_entry):
-            changed = True
+        one_changed, update = sync_one(source, watch_entry)
+        changed = changed or one_changed
+        if update:
+            updates.append(update)
 
     if changed:
         with open(APPS_JSON, "w", encoding="utf-8") as fh:
@@ -182,6 +196,22 @@ def main():
         print("apps.json updated")
     else:
         print("apps.json unchanged")
+
+    if updates:
+        lines = ["A new version was added to your FlareStore repo:", ""]
+        for update in updates:
+            if update["from"]:
+                lines.append(
+                    f"- **{update['name']}** {update['to']} is ready "
+                    f"(was {update['from']})"
+                )
+            else:
+                lines.append(f"- **{update['name']}** {update['to']} was added")
+            lines.append(f"  Download: {update['url']}")
+        lines += ["", "Open FlareStore and tap Update to install it."]
+        with open(report_path, "w", encoding="utf-8") as fh:
+            fh.write("\n".join(lines) + "\n")
+        print("update-report.md written")
 
 
 if __name__ == "__main__":
