@@ -87,6 +87,24 @@
           "version": "0.5.0"
         }
       ]
+    },
+    {
+      "bundleIdentifier": "thewonderofyou.Feather",
+      "developerName": "khcrysalis",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/feather.png",
+      "localizedDescription": "A free, open-source on-device app manager and installer for iPhone and iPad. Import your signing certificate (P12 + provisioning profile) and Feather signs and installs apps right on the device - no computer needed. It browses AltStore-format sources, including this one, so your shelves work in Feather too. The IPA links straight to the official khcrysalis/Feather GitHub release, and this repo tracks new releases automatically.",
+      "name": "Feather",
+      "subtitle": "On-device app manager & signer",
+      "tintColor": "#0284C7",
+      "versions": [
+        {
+          "date": "2026-07-05T02:11:53Z",
+          "downloadURL": "https://github.com/khcrysalis/Feather/releases/download/v2.9.0/Feather.ipa",
+          "minOSVersion": "16.0",
+          "size": 14241853,
+          "version": "2.9.0"
+        }
+      ]
     }
   ],
   "description": "Personal repo for FlareStore. Apps I keep for myself, no more downloading and unzipping on the phone.",
