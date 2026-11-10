@@ -18,6 +18,75 @@
           "version": "0.2.0"
         }
       ]
+    },
+    {
+      "bundleIdentifier": "com.stremio.pal",
+      "developerName": "Stremio",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/stremio.png",
+      "localizedDescription": "Stremio's official app: movies, series, live TV and add-ons in one place. These are Stremio's own builds, mirrored from their CDN (dl.strem.io) to GitHub so this repo can track them - the 2.1.1 (build 25) files were verified byte-identical to Stremio's official copies.",
+      "name": "Stremio",
+      "subtitle": "Freedom to stream",
+      "tintColor": "#7A5AF8",
+      "versions": [
+        {
+          "date": "2026-11-09T14:01:00Z",
+          "downloadURL": "https://github.com/cat5edopeHA/stremio-apple-ipas/releases/download/v2.1.1b25/stremio_iOS.ipa",
+          "localizedDescription": "Build 25.",
+          "minOSVersion": "15.0",
+          "size": 84752072,
+          "version": "2.1.1"
+        },
+        {
+          "date": "2026-10-26T13:00:25Z",
+          "downloadURL": "https://github.com/cat5edopeHA/stremio-apple-ipas/releases/download/v2.1.0b24/stremio_iOS.ipa",
+          "minOSVersion": "15.0",
+          "size": 84705521,
+          "version": "2.1.0"
+        },
+        {
+          "date": "2026-09-14T13:05:34Z",
+          "downloadURL": "https://github.com/cat5edopeHA/stremio-apple-ipas/releases/download/v2.0.8b23/stremio_iOS.ipa",
+          "minOSVersion": "13.0",
+          "size": 78506200,
+          "version": "2.0.8"
+        }
+      ]
+    },
+    {
+      "bundleIdentifier": "app.vesper",
+      "developerName": "DjangoCustard225",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/vesper.png",
+      "localizedDescription": "A native iOS content hub. The IPA links straight to the official DjangoCustard225/Vesper GitHub release, and this repo tracks new releases automatically. Requires iOS 27.",
+      "name": "Vesper",
+      "subtitle": "Native iOS content hub",
+      "tintColor": "#4F46E5",
+      "versions": [
+        {
+          "date": "2026-11-04T08:11:28Z",
+          "downloadURL": "https://github.com/DjangoCustard225/Vesper/releases/download/v0.5.2/Vesper.ipa",
+          "minOSVersion": "27.0",
+          "size": 15722959,
+          "version": "0.5.2"
+        }
+      ]
+    },
+    {
+      "bundleIdentifier": "dev.playport.app",
+      "developerName": "playportdev",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/playport.png",
+      "localizedDescription": "Playport runs Windows games - 64-bit and 32-bit - on a stock, non-jailbroken iPhone: install a game from your library, pick up a controller, and play. The game runs on the phone's own CPU and GPU - no PC, no cloud, no streaming. The IPA links straight to the official playportdev/playport GitHub release, and this repo tracks new releases automatically.",
+      "name": "Playport",
+      "subtitle": "Windows games on iOS",
+      "tintColor": "#2563EB",
+      "versions": [
+        {
+          "date": "2026-11-02T10:13:17Z",
+          "downloadURL": "https://github.com/playportdev/playport/releases/download/v0.5.0/Playport-0.5.0.ipa",
+          "minOSVersion": "26.0",
+          "size": 413322913,
+          "version": "0.5.0"
+        }
+      ]
     }
   ],
   "description": "Personal repo for FlareStore. Apps I keep for myself, no more downloading and unzipping on the phone.",
