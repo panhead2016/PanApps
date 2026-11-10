@@ -42,6 +42,12 @@
       "bundleIdentifier": "com.xd.mbp31",
       "directIpa": "https://www.movieboxpro.app/ipa",
       "name": "MovieBoxPro"
+    },
+    {
+      "assetContains": "enhanced-release.ipa",
+      "bundleIdentifier": "com.nuvio.media",
+      "name": "Nuvio Enhanced",
+      "repo": "luqmanfadlli/NuvioMobile-Enhanced"
     }
   ]
 }
