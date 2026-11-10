@@ -25,6 +25,11 @@
       "bundleIdentifier": "thewonderofyou.Feather",
       "name": "Feather",
       "repo": "khcrysalis/Feather"
+    },
+    {
+      "bundleIdentifier": "com.aoshuang.manicemu",
+      "name": "Manic EMU",
+      "repo": "Manic-EMU/ManicEMU"
     }
   ]
 }
