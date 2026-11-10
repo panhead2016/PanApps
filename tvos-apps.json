@@ -3,6 +3,94 @@
   "identifier": "com.panhead2016.repo.tvos",
   "description": "Personal Apple TV repo for FlareStore. tvOS apps only - the big-screen shelf.",
   "tintColor": "#7C3AED",
-  "apps": [],
+  "apps": [
+    {
+      "bundleIdentifier": "com.stremio.pal",
+      "developerName": "Stremio",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/stremio.png",
+      "localizedDescription": "Stremio's official Apple TV app: movies, series, live TV and add-ons in one place. These are Stremio's own builds, mirrored from their CDN (dl.strem.io) to GitHub so this repo can track them - the 2.1.1 (build 25) files were verified byte-identical to Stremio's official copies.",
+      "name": "Stremio",
+      "subtitle": "Freedom to stream",
+      "tintColor": "#7A5AF8",
+      "versions": [
+        {
+          "date": "2026-11-09T14:01:00Z",
+          "downloadURL": "https://github.com/cat5edopeHA/stremio-apple-ipas/releases/download/v2.1.1b25/stremio_tvOS.ipa",
+          "localizedDescription": "Build 25.",
+          "minOSVersion": "15.0",
+          "size": 74791649,
+          "version": "2.1.1"
+        },
+        {
+          "date": "2026-10-26T13:00:25Z",
+          "downloadURL": "https://github.com/cat5edopeHA/stremio-apple-ipas/releases/download/v2.1.0b24/stremio_tvOS.ipa",
+          "minOSVersion": "15.0",
+          "size": 74745267,
+          "version": "2.1.0"
+        },
+        {
+          "date": "2026-09-14T13:05:34Z",
+          "downloadURL": "https://github.com/cat5edopeHA/stremio-apple-ipas/releases/download/v2.0.8b23/stremio_tvOS.ipa",
+          "minOSVersion": "15.0",
+          "size": 74055518,
+          "version": "2.0.8"
+        }
+      ]
+    },
+    {
+      "bundleIdentifier": "com.nuvio.media.NuvioTV",
+      "developerName": "youngchris29-art",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/nuviotv.png",
+      "localizedDescription": "A native tvOS port of NuvioMobile: the same Nuvio account and addons, rebuilt with a SwiftUI focus-engine frontend for the big screen. The IPA links straight to the official youngchris29-art/NuvioTV GitHub release, and this repo tracks new releases automatically. Requires tvOS 26.",
+      "name": "NuvioTV",
+      "subtitle": "Nuvio for Apple TV (youngchris29 port)",
+      "tintColor": "#6D28D9",
+      "versions": [
+        {
+          "date": "2026-11-09T18:14:55Z",
+          "downloadURL": "https://github.com/youngchris29-art/NuvioTV/releases/download/tvos-v0.3.0-beta.22/NuvioTV.ipa",
+          "minOSVersion": "26.0",
+          "size": 41549694,
+          "version": "0.3.0"
+        }
+      ]
+    },
+    {
+      "bundleIdentifier": "com.pyksel.nuviotvos",
+      "developerName": "bobsupra",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/nuvio-tv.png",
+      "localizedDescription": "A Nuvio client for Apple TV. The IPA links straight to the official bobsupra/NuvioTVOS GitHub release, and this repo tracks new releases automatically.",
+      "name": "Nuvio TV",
+      "subtitle": "Nuvio tvOS client (bobsupra)",
+      "tintColor": "#0891B2",
+      "versions": [
+        {
+          "date": "2026-11-06T17:00:27Z",
+          "downloadURL": "https://github.com/bobsupra/NuvioTVOS/releases/download/tvos-beta-3.5.0/NuvioTV-3.5.0-unsigned-release.ipa",
+          "minOSVersion": "18.0",
+          "size": 68959520,
+          "version": "3.5.0"
+        }
+      ]
+    },
+    {
+      "bundleIdentifier": "com.orivio.tv.appletv.dev",
+      "developerName": "prehakanson-art",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/orivio-tv.png",
+      "localizedDescription": "A native SwiftUI media player for Apple TV: addon and debrid streaming, Trakt/TMDB, and Nuvio account sync. This is the Sideload build from the official prehakanson-art/OrivioTVAppleTV GitHub releases, and this repo tracks new releases automatically.",
+      "name": "Orivio TV",
+      "subtitle": "tvOS media player with Nuvio sync",
+      "tintColor": "#0F766E",
+      "versions": [
+        {
+          "date": "2026-11-01T04:59:22Z",
+          "downloadURL": "https://github.com/prehakanson-art/OrivioTVAppleTV/releases/download/v0.15/OrivioTV-V0.15.Sideload.ipa",
+          "minOSVersion": "17.0",
+          "size": 52895055,
+          "version": "0.15"
+        }
+      ]
+    }
+  ],
   "news": []
 }
