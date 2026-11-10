@@ -8,8 +8,10 @@ For each watched repo it fetches the
 latest release; if that version is not already the top entry in apps.json,
 it downloads the .ipa, reads the bundle ID / version / minimum iOS from the
 IPA's own Info.plist, and prepends a new versions[] entry pointing at the
-upstream release asset. Nothing is copied into this repo - apps.json just
-tracks the upstream links.
+upstream release asset. A watch entry may instead carry a "directIpa"
+link for a project that publishes its IPA on its own site; the link is
+followed to the current versioned file and tracked the same way.
+Nothing is copied into this repo - apps.json just tracks the upstream links.
 
 Run: python3 scripts/sync_apps.py
 """
@@ -19,8 +21,11 @@ import json
 import os
 import plistlib
 import re
+import urllib.parse
 import urllib.request
 import zipfile
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -67,8 +72,7 @@ def clean_notes(body, limit=600):
     return text
 
 
-def read_ipa_info(url):
-    data = download(url)
+def plist_from_bytes(data):
     with zipfile.ZipFile(io.BytesIO(data)) as zf:
         plist_name = next(
             n
@@ -76,6 +80,36 @@ def read_ipa_info(url):
             if re.match(r"Payload/[^/]+\.app/Info\.plist$", n)
         )
         return plistlib.loads(zf.read(plist_name))
+
+
+def read_ipa_info(url):
+    return plist_from_bytes(download(url))
+
+
+def fetch_direct(url):
+    """Download a file, following redirects.
+
+    Returns (final_url, headers, data). The final URL matters: a stable
+    "latest" link usually resolves to a versioned file, and the
+    versioned URL is what belongs in the source.
+    """
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req) as resp:
+        return resp.geturl(), resp.headers, resp.read()
+
+
+def http_date_to_iso(value):
+    if not value:
+        return None
+    try:
+        dt = parsedate_to_datetime(value)
+    except (TypeError, ValueError):
+        return None
+    if dt is None:
+        return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 def find_app(source, watch_entry):
@@ -133,10 +167,27 @@ def pick_asset(assets, watch_entry):
     return max(assets, key=lambda a: a["size"])
 
 
+def latest_release(repo, watch_entry):
+    """Fetch the release a watch entry should track.
+
+    Normally that is GitHub's "latest" release, which ignores
+    prereleases. A watch entry with "includePrereleases" instead takes
+    the newest release of any kind - for projects whose current builds
+    are published only as prereleases.
+    """
+    if watch_entry.get("includePrereleases"):
+        releases = gh_get_json(f"{API}/repos/{repo}/releases?per_page=1")
+        return releases[0] if releases else None
+    return gh_get_json(f"{API}/repos/{repo}/releases/latest")
+
+
 def sync_one(source, watch_entry):
     repo = watch_entry["repo"]
     print(f"{repo}:")
-    release = gh_get_json(f"{API}/repos/{repo}/releases/latest")
+    release = latest_release(repo, watch_entry)
+    if release is None:
+        print("  no releases found; skipped")
+        return False, None
     tag = release["tag_name"]
     tag_version = tag[1:] if tag[:1] in ("v", "V") else tag
 
@@ -211,6 +262,68 @@ def sync_one(source, watch_entry):
     return changed, update
 
 
+def sync_direct(source, watch_entry):
+    """Track an IPA published on a project's own site.
+
+    The watch entry's "directIpa" is a stable link that redirects to the
+    current versioned file. The IPA is downloaded, its version is read
+    from its own Info.plist, and a new entry - pointing at the versioned
+    URL the link resolved to - is prepended when the version changes.
+    """
+    url = watch_entry["directIpa"]
+    print(f"{watch_entry.get('name') or url} (direct link):")
+    final_url, headers, data = fetch_direct(url)
+    info = plist_from_bytes(data)
+    version = info.get("CFBundleShortVersionString")
+    if not version:
+        print("  IPA has no version string; skipped")
+        return False, None
+
+    app = find_app(source, watch_entry)
+    current = None
+    if app and app.get("versions"):
+        current = app["versions"][0].get("version")
+
+    if current == version:
+        print(f"  already at {version}")
+        if app is not None and fix_icon_url(app):
+            return True, None
+        return False, None
+
+    if app is None:
+        app = {
+            "name": info.get("CFBundleDisplayName")
+            or info.get("CFBundleName")
+            or watch_entry.get("name")
+            or "App",
+            "bundleIdentifier": info.get("CFBundleIdentifier"),
+            "developerName": watch_entry.get("developerName")
+            or urllib.parse.urlparse(url).netloc,
+            "versions": [],
+        }
+        source.setdefault("apps", []).append(app)
+        print(f"  new app entry: {app['name']} ({app['bundleIdentifier']})")
+    entry = {
+        "version": version,
+        "date": http_date_to_iso(headers.get("Last-Modified"))
+        or datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "size": len(data),
+        "downloadURL": final_url,
+    }
+    min_os = info.get("MinimumOSVersion")
+    if min_os:
+        entry["minOSVersion"] = min_os
+    app.setdefault("versions", []).insert(0, entry)
+    update = {
+        "name": app["name"],
+        "from": current,
+        "to": version,
+        "url": final_url,
+    }
+    print(f"  updated: {current or 'none'} -> {version}")
+    return True, update
+
+
 def sync_pair(source_name, watch_name):
     """Sync one source file against its watch list. Returns update dicts."""
     source_path = os.path.join(ROOT, source_name)
@@ -226,7 +339,10 @@ def sync_pair(source_name, watch_name):
     changed = False
     updates = []
     for watch_entry in watch:
-        one_changed, update = sync_one(source, watch_entry)
+        if watch_entry.get("directIpa"):
+            one_changed, update = sync_direct(source, watch_entry)
+        else:
+            one_changed, update = sync_one(source, watch_entry)
         changed = changed or one_changed
         if update:
             updates.append(update)
