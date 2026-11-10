@@ -124,6 +124,43 @@
           "version": "2.0.2"
         }
       ]
+    },
+    {
+      "bundleIdentifier": "me.oatmealdome.DolphiniOS-njb-patreon-beta",
+      "developerName": "OatmealDome",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/dolphinios.png",
+      "localizedDescription": "The official iOS port of the Dolphin emulator: GameCube and Wii games on iPhone and iPad. These are the project's current public beta builds (the 5.0.0 line) in the Non-Jailbroken flavor, linked straight from the official OatmealDome/dolphin-ios GitHub releases, and this repo tracks new releases automatically. Full speed needs JIT, which a JIT enabler app can provide.",
+      "name": "DolphiniOS",
+      "subtitle": "GameCube & Wii emulator",
+      "tintColor": "#007AFF",
+      "versions": [
+        {
+          "date": "2026-06-20T07:01:54Z",
+          "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b6/Non-Jailbroken.ipa",
+          "localizedDescription": "Public beta 6 - adds JIT support on iOS 26.6 and iOS 27 beta, per the project's changelog.",
+          "minOSVersion": "14.0",
+          "size": 17963367,
+          "version": "5.0.0b6"
+        }
+      ]
+    },
+    {
+      "bundleIdentifier": "com.xd.mbp31",
+      "developerName": "MovieBox Pro",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/movieboxpro.png",
+      "localizedDescription": "MovieBox Pro's official iOS app for movies and TV streaming. The project distributes the IPA from its own site (movieboxpro.app) rather than GitHub; this repo tracks the site's current build automatically, and each entry links to that version's file on their CDN. There is no Apple TV version - their TV app is for Android TV only.",
+      "name": "MovieBoxPro",
+      "subtitle": "Movies & TV streaming",
+      "tintColor": "#E11D48",
+      "versions": [
+        {
+          "date": "2026-11-02T06:28:31Z",
+          "downloadURL": "https://images.chuaxin.com/app/ios_ipa/MovieBoxPro_16.5.ipa",
+          "minOSVersion": "15.0",
+          "size": 51015578,
+          "version": "16.5"
+        }
+      ]
     }
   ],
   "description": "Personal repo for FlareStore. Apps I keep for myself, no more downloading and unzipping on the phone.",
