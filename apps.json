@@ -105,6 +105,25 @@
           "version": "2.9.0"
         }
       ]
+    },
+    {
+      "bundleIdentifier": "com.aoshuang.manicemu",
+      "developerName": "Manic-EMU",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/manicemu.png",
+      "localizedDescription": "An all-in-one retro game emulator for iOS, packing many systems - including Nintendo, 3DS and Wii cores - into one clean app. This is the project's Sideload JIT build from their official GitHub releases. The IPA links straight to the official Manic-EMU/ManicEMU release, and this repo tracks new releases automatically.",
+      "name": "Manic EMU",
+      "subtitle": "All-in-one retro emulator",
+      "tintColor": "#EA580C",
+      "versions": [
+        {
+          "date": "2026-11-02T08:03:58Z",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v2.0.2/ManicEMU.v2.0.2.SideloadJIT.ipa",
+          "localizedDescription": "Improved 3DS performance, Azahar core and Home Menu improvements, Wii pointer fixes, and more.",
+          "minOSVersion": "15.0",
+          "size": 293317769,
+          "version": "2.0.2"
+        }
+      ]
     }
   ],
   "description": "Personal repo for FlareStore. Apps I keep for myself, no more downloading and unzipping on the phone.",
