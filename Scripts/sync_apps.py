@@ -111,6 +111,28 @@ def fix_icon_url(app):
     return False
 
 
+def pick_asset(assets, watch_entry):
+    """Choose which .ipa in a release belongs to this watch entry.
+
+    A release can hold several IPAs (for example one iOS build and one
+    tvOS build). A watch entry may pin an exact asset name ("asset") or
+    a substring ("assetContains"); otherwise the largest .ipa wins.
+    """
+    exact = watch_entry.get("asset")
+    if exact:
+        for asset in assets:
+            if asset["name"] == exact:
+                return asset
+        return None
+    contains = watch_entry.get("assetContains")
+    if contains:
+        matches = [
+            a for a in assets if contains.lower() in a["name"].lower()
+        ]
+        return max(matches, key=lambda a: a["size"]) if matches else None
+    return max(assets, key=lambda a: a["size"])
+
+
 def sync_one(source, watch_entry):
     repo = watch_entry["repo"]
     print(f"{repo}:")
@@ -124,7 +146,11 @@ def sync_one(source, watch_entry):
     if not assets:
         print(f"  no .ipa asset in release {tag}; skipped")
         return False, None
-    asset = max(assets, key=lambda a: a["size"])
+    asset = pick_asset(assets, watch_entry)
+    if asset is None:
+        wanted = watch_entry.get("asset") or watch_entry.get("assetContains")
+        print(f"  no asset matching {wanted!r} in release {tag}; skipped")
+        return False, None
 
     app = find_app(source, watch_entry)
     changed = False
