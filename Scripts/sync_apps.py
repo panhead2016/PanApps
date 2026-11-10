@@ -3,7 +3,8 @@
 
 Stdlib only, so it runs anywhere (GitHub Actions, a PC, Termux).
 
-Reads the watch list from sync.json. For each watched repo it fetches the
+Reads the watch lists in sync.json (iOS) and sync-tvos.json (Apple TV).
+For each watched repo it fetches the
 latest release; if that version is not already the top entry in apps.json,
 it downloads the .ipa, reads the bundle ID / version / minimum iOS from the
 IPA's own Info.plist, and prepends a new versions[] entry pointing at the
@@ -22,8 +23,13 @@ import urllib.request
 import zipfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-APPS_JSON = os.path.join(ROOT, "apps.json")
-SYNC_JSON = os.path.join(ROOT, "sync.json")
+
+# Each pair is (source file, watch list file). apps.json is the iOS shelf,
+# tvos-apps.json is the Apple TV shelf; both live in this one repo.
+PAIRS = [
+    ("apps.json", "sync.json"),
+    ("tvos-apps.json", "sync-tvos.json"),
+]
 API = "https://api.github.com"
 USER_AGENT = "repo-sync/1.0"
 
@@ -132,6 +138,14 @@ def sync_one(source, watch_entry):
     else:
         info = read_ipa_info(asset["browser_download_url"])
         version = info.get("CFBundleShortVersionString") or tag_version
+        if current is not None and version == current:
+            # The tag's spelling differs from the IPA's own version (for
+            # example a "-beta" suffix in the tag). Already current - do
+            # not prepend a duplicate entry.
+            print(f"  already at {version} (tag says {tag_version})")
+            if app is not None and fix_icon_url(app):
+                changed = True
+            return changed, None
         if app is None:
             app = {
                 "name": info.get("CFBundleDisplayName")
@@ -171,15 +185,17 @@ def sync_one(source, watch_entry):
     return changed, update
 
 
-def main():
-    with open(SYNC_JSON, encoding="utf-8") as fh:
+def sync_pair(source_name, watch_name):
+    """Sync one source file against its watch list. Returns update dicts."""
+    source_path = os.path.join(ROOT, source_name)
+    watch_path = os.path.join(ROOT, watch_name)
+    if not os.path.exists(source_path) or not os.path.exists(watch_path):
+        print(f"{source_name}: no watch list yet, skipped")
+        return []
+    with open(watch_path, encoding="utf-8") as fh:
         watch = json.load(fh)["watch"]
-    with open(APPS_JSON, encoding="utf-8") as fh:
+    with open(source_path, encoding="utf-8") as fh:
         source = json.load(fh)
-
-    report_path = os.path.join(ROOT, "update-report.md")
-    if os.path.exists(report_path):
-        os.remove(report_path)
 
     changed = False
     updates = []
@@ -190,12 +206,23 @@ def main():
             updates.append(update)
 
     if changed:
-        with open(APPS_JSON, "w", encoding="utf-8") as fh:
+        with open(source_path, "w", encoding="utf-8") as fh:
             json.dump(source, fh, indent=2, ensure_ascii=False)
             fh.write("\n")
-        print("apps.json updated")
+        print(f"{source_name} updated")
     else:
-        print("apps.json unchanged")
+        print(f"{source_name} unchanged")
+    return updates
+
+
+def main():
+    report_path = os.path.join(ROOT, "update-report.md")
+    if os.path.exists(report_path):
+        os.remove(report_path)
+
+    updates = []
+    for source_name, watch_name in PAIRS:
+        updates += sync_pair(source_name, watch_name)
 
     if updates:
         lines = ["A new version was added to your FlareStore repo:", ""]
