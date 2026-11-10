@@ -20,6 +20,11 @@
       "bundleIdentifier": "dev.playport.app",
       "name": "Playport",
       "repo": "playportdev/playport"
+    },
+    {
+      "bundleIdentifier": "thewonderofyou.Feather",
+      "name": "Feather",
+      "repo": "khcrysalis/Feather"
     }
   ]
 }
