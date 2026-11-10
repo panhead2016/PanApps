@@ -161,6 +161,25 @@
           "version": "16.5"
         }
       ]
+    },
+    {
+      "bundleIdentifier": "com.nuvio.media",
+      "developerName": "Unofficial Nuvio",
+      "iconURL": "https://raw.githubusercontent.com/luqmanfadlli/NuvioMobile-Enhanced/enhanced/iosApp/iosApp/Assets.xcassets/AppIcon.appiconset/app-icon-1024.png",
+      "localizedDescription": "A free, open-source media app for your phone, your desktop, and the TV you already own. Bring your own sources. Nuvio turns them into a library with artwork, ratings, subtitles, and your place saved on every screen.",
+      "name": "Nuvio Enhanced",
+      "subtitle": "A free, open-source media app for your phone, your desktop, and the TV you already own.",
+      "tintColor": "#1E88E5",
+      "versions": [
+        {
+          "date": "2026-11-10T08:54:47Z",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.6.11-beta/nuvio-0.6.11-enhanced-release.ipa",
+          "localizedDescription": "Playback memory optimizations for iPhone and a lighter mpv setup; subtitle shadow, outline and blur; sign-in stays put when a session refresh fails, plus player fixes.",
+          "minOSVersion": "16.1",
+          "size": 75396411,
+          "version": "0.6.11"
+        }
+      ]
     }
   ],
   "description": "Personal repo for FlareStore. Apps I keep for myself, no more downloading and unzipping on the phone.",
