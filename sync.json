@@ -30,6 +30,18 @@
       "bundleIdentifier": "com.aoshuang.manicemu",
       "name": "Manic EMU",
       "repo": "Manic-EMU/ManicEMU"
+    },
+    {
+      "asset": "Non-Jailbroken.ipa",
+      "bundleIdentifier": "me.oatmealdome.DolphiniOS-njb-patreon-beta",
+      "includePrereleases": true,
+      "name": "DolphiniOS",
+      "repo": "OatmealDome/dolphin-ios"
+    },
+    {
+      "bundleIdentifier": "com.xd.mbp31",
+      "directIpa": "https://www.movieboxpro.app/ipa",
+      "name": "MovieBoxPro"
     }
   ]
 }
