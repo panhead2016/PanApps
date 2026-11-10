@@ -1,7 +1,6 @@
 {
-  "name": "panhead's tvOS Apps",
+  "name": "tvOS Apps",
   "identifier": "com.panhead2016.repo.tvos",
-  "subtitle": "My Apple TV sideloading apps",
   "description": "Personal Apple TV repo for FlareStore. tvOS apps only - the big-screen shelf.",
   "tintColor": "#7C3AED",
   "apps": [],
