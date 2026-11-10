@@ -3,7 +3,7 @@
     {
       "bundleIdentifier": "com.willfaust.madeora",
       "developerName": "willfaust",
-      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanPhone-Apps/main/Icons/madeira.png",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/madeira.png",
       "localizedDescription": "Run x86-64 Windows PC games on iPhone and iPad - no jailbreak. Madeira bundles FEX-Emu, Wine, and DXMT, and puts your GOG, Epic Games, EA app, and itch.io libraries in one place: sign in, download, and play. Requires iOS 18 or later. The IPA links straight to the official willfaust/Madeira GitHub release, and this repo tracks new releases automatically.",
       "name": "Madeira",
       "subtitle": "Windows PC games on iOS",
@@ -22,7 +22,7 @@
   ],
   "description": "Personal repo for FlareStore. Apps I keep for myself, no more downloading and unzipping on the phone.",
   "identifier": "com.panhead2016.repo",
-  "name": "panhead2016's Repo",
+  "name": "panhead's iOS Apps",
   "news": [],
   "subtitle": "My personal sideloading apps",
   "tintColor": "#7C3AED"
