@@ -65,6 +65,14 @@
       "tintColor": "#0891B2",
       "versions": [
         {
+          "version": "3.5.1",
+          "date": "2026-11-10T19:40:55Z",
+          "size": 70897185,
+          "downloadURL": "https://github.com/bobsupra/NuvioTVOS/releases/download/tvos-beta-3.5.1/NuvioTV-3.5.1-unsigned-release.ipa",
+          "localizedDescription": "tvOS Beta 3.5.1\n\n> Install: [NuvioTV-3.5.1-unsigned-release.ipa](https://github.com/bobsupra/NuvioTVOS/releases/download/tvos-beta-3.5.1/NuvioTV-3.5.1-unsigned-release.ipa) requires a compatible tvOS development or sideloading signing workflow before installation.\n\n> New beta alerts: [Manage notifications](https://github.com/bobsupra/NuvioTVOS/subscription) → choose Custom → Releases · [Report a bug or suggest an idea](https://github.com/bobsupra/NuvioTVOS/issues/new/choose)\n\n> Join the community: [NuvioTVOS Discord](https://discord.gg/2YnNr2xmnJ) — chat, get help, report bugs, and share...",
+          "minOSVersion": "18.0"
+        },
+        {
           "date": "2026-11-06T17:00:27Z",
           "downloadURL": "https://github.com/bobsupra/NuvioTVOS/releases/download/tvos-beta-3.5.0/NuvioTV-3.5.0-unsigned-release.ipa",
           "minOSVersion": "18.0",
