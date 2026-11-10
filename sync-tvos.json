@@ -1,3 +1,26 @@
 {
-  "watch": []
+  "watch": [
+    {
+      "asset": "stremio_tvOS.ipa",
+      "bundleIdentifier": "com.stremio.pal",
+      "name": "Stremio",
+      "repo": "cat5edopeHA/stremio-apple-ipas"
+    },
+    {
+      "bundleIdentifier": "com.nuvio.media.NuvioTV",
+      "name": "NuvioTV",
+      "repo": "youngchris29-art/NuvioTV"
+    },
+    {
+      "bundleIdentifier": "com.pyksel.nuviotvos",
+      "name": "Nuvio TV",
+      "repo": "bobsupra/NuvioTVOS"
+    },
+    {
+      "assetContains": "Sideload.ipa",
+      "bundleIdentifier": "com.orivio.tv.appletv.dev",
+      "name": "Orivio TV",
+      "repo": "prehakanson-art/OrivioTVAppleTV"
+    }
+  ]
 }
