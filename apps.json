@@ -22,8 +22,7 @@
   ],
   "description": "Personal repo for FlareStore. Apps I keep for myself, no more downloading and unzipping on the phone.",
   "identifier": "com.panhead2016.repo",
-  "name": "panhead's iOS Apps",
+  "name": "iOS Apps",
   "news": [],
-  "subtitle": "My personal sideloading apps",
   "tintColor": "#7C3AED"
 }
