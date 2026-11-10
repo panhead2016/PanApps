@@ -1,1 +1,25 @@
-{"watch":[{"bundleIdentifier":"com.willfaust.madeora","name":"Madeira","repo":"willfaust/Madeira"}]}
+{
+  "watch": [
+    {
+      "bundleIdentifier": "com.willfaust.madeora",
+      "name": "Madeira",
+      "repo": "willfaust/Madeira"
+    },
+    {
+      "asset": "stremio_iOS.ipa",
+      "bundleIdentifier": "com.stremio.pal",
+      "name": "Stremio",
+      "repo": "cat5edopeHA/stremio-apple-ipas"
+    },
+    {
+      "bundleIdentifier": "app.vesper",
+      "name": "Vesper",
+      "repo": "DjangoCustard225/Vesper"
+    },
+    {
+      "bundleIdentifier": "dev.playport.app",
+      "name": "Playport",
+      "repo": "playportdev/playport"
+    }
+  ]
+}
