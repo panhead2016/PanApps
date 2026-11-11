@@ -21,6 +21,12 @@
       "bundleIdentifier": "com.orivio.tv.appletv.dev",
       "name": "Orivio TV",
       "repo": "prehakanson-art/OrivioTVAppleTV"
+    },
+    {
+      "assetContains": "-tvOS.ipa",
+      "bundleIdentifier": "org.provenance-emu.provenance",
+      "name": "Provenance",
+      "repo": "Provenance-Emu/Provenance"
     }
   ]
 }
