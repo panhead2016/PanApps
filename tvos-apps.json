@@ -98,6 +98,25 @@
           "version": "0.15"
         }
       ]
+    },
+    {
+      "bundleIdentifier": "org.provenance-emu.provenance",
+      "developerName": "Provenance-Emu",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/provenance.png",
+      "localizedDescription": "Provenance is a multi-system retro emulator for Apple TV covering 60+ systems — Nintendo, Sega, Atari, Sony and more — with a redesigned tvOS interface, iCloud sync for ROMs, saves and artwork, RetroAchievements and video filters. Open source by the Provenance team; builds link straight to their official GitHub releases.",
+      "name": "Provenance",
+      "subtitle": "Multi-system retro emulator — 60+ systems",
+      "tintColor": "#0060E0",
+      "versions": [
+        {
+          "date": "2026-03-14T02:17:44Z",
+          "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-tvOS.ipa",
+          "localizedDescription": "3.3.0: iCloud/CloudKit sync for ROMs, save states, BIOS files and artwork; a completely redesigned tvOS interface; a unified video filter and shader pipeline across cores; RetroArch GLES 3D core support; and a long list of core, controller and stability fixes.",
+          "minOSVersion": "17.6",
+          "size": 781548550,
+          "version": "3.3.0"
+        }
+      ]
     }
   ],
   "news": []
