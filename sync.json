@@ -54,6 +54,12 @@
    "bundleIdentifier": "com.google.ios.youtube",
    "name": "YouTubePlus",
    "repo": "mrdrvt99/YouProEXTRA"
+  },
+  {
+   "assetContains": "-iOS.ipa",
+   "bundleIdentifier": "org.provenance-emu.provenance",
+   "name": "Provenance",
+   "repo": "Provenance-Emu/Provenance"
   }
  ]
 }
