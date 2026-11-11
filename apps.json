@@ -1,190 +1,209 @@
 {
-  "apps": [
+ "apps": [
+  {
+   "bundleIdentifier": "com.willfaust.madeora",
+   "developerName": "willfaust",
+   "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/madeira.png",
+   "localizedDescription": "Run x86-64 Windows PC games on iPhone and iPad - no jailbreak. Madeira bundles FEX-Emu, Wine, and DXMT, and puts your GOG, Epic Games, EA app, and itch.io libraries in one place: sign in, download, and play. Requires iOS 18 or later. The IPA links straight to the official willfaust/Madeira GitHub release, and this repo tracks new releases automatically.",
+   "name": "Madeira",
+   "subtitle": "Windows PC games on iOS",
+   "tintColor": "#722F37",
+   "versions": [
     {
-      "bundleIdentifier": "com.willfaust.madeora",
-      "developerName": "willfaust",
-      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/madeira.png",
-      "localizedDescription": "Run x86-64 Windows PC games on iPhone and iPad - no jailbreak. Madeira bundles FEX-Emu, Wine, and DXMT, and puts your GOG, Epic Games, EA app, and itch.io libraries in one place: sign in, download, and play. Requires iOS 18 or later. The IPA links straight to the official willfaust/Madeira GitHub release, and this repo tracks new releases automatically.",
-      "name": "Madeira",
-      "subtitle": "Windows PC games on iOS",
-      "tintColor": "#722F37",
-      "versions": [
-        {
-          "date": "2026-11-04T03:29:04Z",
-          "downloadURL": "https://github.com/willfaust/Madeira/releases/download/v0.2.0/Madeira-0.2.0.ipa",
-          "localizedDescription": "Adds a GOG section (sign in, library, downloads, Galaxy achievements and stats), an EA app section (library and downloads), and itch.io support. Epic Games downloads and cloud saves now work together. New store tabs when more than one store is enabled.",
-          "minOSVersion": "18.0",
-          "size": 186400561,
-          "version": "0.2.0"
-        }
-      ]
-    },
-    {
-      "bundleIdentifier": "com.stremio.pal",
-      "developerName": "Stremio",
-      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/stremio.png",
-      "localizedDescription": "Stremio's official app: movies, series, live TV and add-ons in one place. These are Stremio's own builds, mirrored from their CDN (dl.strem.io) to GitHub so this repo can track them - the 2.1.1 (build 25) files were verified byte-identical to Stremio's official copies.",
-      "name": "Stremio",
-      "subtitle": "Freedom to stream",
-      "tintColor": "#7A5AF8",
-      "versions": [
-        {
-          "date": "2026-11-09T14:01:00Z",
-          "downloadURL": "https://github.com/cat5edopeHA/stremio-apple-ipas/releases/download/v2.1.1b25/stremio_iOS.ipa",
-          "localizedDescription": "Build 25.",
-          "minOSVersion": "15.0",
-          "size": 84752072,
-          "version": "2.1.1"
-        },
-        {
-          "date": "2026-10-26T13:00:25Z",
-          "downloadURL": "https://github.com/cat5edopeHA/stremio-apple-ipas/releases/download/v2.1.0b24/stremio_iOS.ipa",
-          "minOSVersion": "15.0",
-          "size": 84705521,
-          "version": "2.1.0"
-        },
-        {
-          "date": "2026-09-14T13:05:34Z",
-          "downloadURL": "https://github.com/cat5edopeHA/stremio-apple-ipas/releases/download/v2.0.8b23/stremio_iOS.ipa",
-          "minOSVersion": "13.0",
-          "size": 78506200,
-          "version": "2.0.8"
-        }
-      ]
-    },
-    {
-      "bundleIdentifier": "app.vesper",
-      "developerName": "DjangoCustard225",
-      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/vesper.png",
-      "localizedDescription": "A native iOS content hub. The IPA links straight to the official DjangoCustard225/Vesper GitHub release, and this repo tracks new releases automatically. Requires iOS 27.",
-      "name": "Vesper",
-      "subtitle": "Native iOS content hub",
-      "tintColor": "#4F46E5",
-      "versions": [
-        {
-          "date": "2026-11-04T08:11:28Z",
-          "downloadURL": "https://github.com/DjangoCustard225/Vesper/releases/download/v0.5.2/Vesper.ipa",
-          "minOSVersion": "27.0",
-          "size": 15722959,
-          "version": "0.5.2"
-        }
-      ]
-    },
-    {
-      "bundleIdentifier": "dev.playport.app",
-      "developerName": "playportdev",
-      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/playport.png",
-      "localizedDescription": "Playport runs Windows games - 64-bit and 32-bit - on a stock, non-jailbroken iPhone: install a game from your library, pick up a controller, and play. The game runs on the phone's own CPU and GPU - no PC, no cloud, no streaming. The IPA links straight to the official playportdev/playport GitHub release, and this repo tracks new releases automatically.",
-      "name": "Playport",
-      "subtitle": "Windows games on iOS",
-      "tintColor": "#2563EB",
-      "versions": [
-        {
-          "date": "2026-11-02T10:13:17Z",
-          "downloadURL": "https://github.com/playportdev/playport/releases/download/v0.5.0/Playport-0.5.0.ipa",
-          "minOSVersion": "26.0",
-          "size": 413322913,
-          "version": "0.5.0"
-        }
-      ]
-    },
-    {
-      "bundleIdentifier": "thewonderofyou.Feather",
-      "developerName": "khcrysalis",
-      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/feather.png",
-      "localizedDescription": "A free, open-source on-device app manager and installer for iPhone and iPad. Import your signing certificate (P12 + provisioning profile) and Feather signs and installs apps right on the device - no computer needed. It browses AltStore-format sources, including this one, so your shelves work in Feather too. The IPA links straight to the official khcrysalis/Feather GitHub release, and this repo tracks new releases automatically.",
-      "name": "Feather",
-      "subtitle": "On-device app manager & signer",
-      "tintColor": "#0284C7",
-      "versions": [
-        {
-          "date": "2026-07-05T02:11:53Z",
-          "downloadURL": "https://github.com/khcrysalis/Feather/releases/download/v2.9.0/Feather.ipa",
-          "minOSVersion": "16.0",
-          "size": 14241853,
-          "version": "2.9.0"
-        }
-      ]
-    },
-    {
-      "bundleIdentifier": "com.aoshuang.manicemu",
-      "developerName": "Manic-EMU",
-      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/manicemu.png",
-      "localizedDescription": "An all-in-one retro game emulator for iOS, packing many systems - including Nintendo, 3DS and Wii cores - into one clean app. This is the project's Sideload JIT build from their official GitHub releases. The IPA links straight to the official Manic-EMU/ManicEMU release, and this repo tracks new releases automatically.",
-      "name": "Manic EMU",
-      "subtitle": "All-in-one retro emulator",
-      "tintColor": "#EA580C",
-      "versions": [
-        {
-          "date": "2026-11-02T08:03:58Z",
-          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v2.0.2/ManicEMU.v2.0.2.SideloadJIT.ipa",
-          "localizedDescription": "Improved 3DS performance, Azahar core and Home Menu improvements, Wii pointer fixes, and more.",
-          "minOSVersion": "15.0",
-          "size": 293317769,
-          "version": "2.0.2"
-        }
-      ]
-    },
-    {
-      "bundleIdentifier": "me.oatmealdome.DolphiniOS-njb-patreon-beta",
-      "developerName": "OatmealDome",
-      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/dolphinios.png",
-      "localizedDescription": "The official iOS port of the Dolphin emulator: GameCube and Wii games on iPhone and iPad. These are the project's current public beta builds (the 5.0.0 line) in the Non-Jailbroken flavor, linked straight from the official OatmealDome/dolphin-ios GitHub releases, and this repo tracks new releases automatically. Full speed needs JIT, which a JIT enabler app can provide.",
-      "name": "DolphiniOS",
-      "subtitle": "GameCube & Wii emulator",
-      "tintColor": "#007AFF",
-      "versions": [
-        {
-          "date": "2026-06-20T07:01:54Z",
-          "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b6/Non-Jailbroken.ipa",
-          "localizedDescription": "Public beta 6 - adds JIT support on iOS 26.6 and iOS 27 beta, per the project's changelog.",
-          "minOSVersion": "14.0",
-          "size": 17963367,
-          "version": "5.0.0b6"
-        }
-      ]
-    },
-    {
-      "bundleIdentifier": "com.xd.mbp31",
-      "developerName": "MovieBox Pro",
-      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/movieboxpro.png",
-      "localizedDescription": "MovieBox Pro's official iOS app for movies and TV streaming. The project distributes the IPA from its own site (movieboxpro.app) rather than GitHub; this repo tracks the site's current build automatically, and each entry links to that version's file on their CDN. There is no Apple TV version - their TV app is for Android TV only.",
-      "name": "MovieBoxPro",
-      "subtitle": "Movies & TV streaming",
-      "tintColor": "#E11D48",
-      "versions": [
-        {
-          "date": "2026-11-02T06:28:31Z",
-          "downloadURL": "https://images.chuaxin.com/app/ios_ipa/MovieBoxPro_16.5.ipa",
-          "minOSVersion": "15.0",
-          "size": 51015578,
-          "version": "16.5"
-        }
-      ]
-    },
-    {
-      "bundleIdentifier": "com.nuvio.media",
-      "developerName": "Unofficial Nuvio",
-      "iconURL": "https://raw.githubusercontent.com/luqmanfadlli/NuvioMobile-Enhanced/enhanced/iosApp/iosApp/Assets.xcassets/AppIcon.appiconset/app-icon-1024.png",
-      "localizedDescription": "A free, open-source media app for your phone, your desktop, and the TV you already own. Bring your own sources. Nuvio turns them into a library with artwork, ratings, subtitles, and your place saved on every screen.",
-      "name": "Nuvio Enhanced",
-      "subtitle": "A free, open-source media app for your phone, your desktop, and the TV you already own.",
-      "tintColor": "#1E88E5",
-      "versions": [
-        {
-          "date": "2026-11-10T08:54:47Z",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.6.11-beta/nuvio-0.6.11-enhanced-release.ipa",
-          "localizedDescription": "Playback memory optimizations for iPhone and a lighter mpv setup; subtitle shadow, outline and blur; sign-in stays put when a session refresh fails, plus player fixes.",
-          "minOSVersion": "16.1",
-          "size": 75396411,
-          "version": "0.6.11"
-        }
-      ]
+     "date": "2026-11-04T03:29:04Z",
+     "downloadURL": "https://github.com/willfaust/Madeira/releases/download/v0.2.0/Madeira-0.2.0.ipa",
+     "localizedDescription": "Adds a GOG section (sign in, library, downloads, Galaxy achievements and stats), an EA app section (library and downloads), and itch.io support. Epic Games downloads and cloud saves now work together. New store tabs when more than one store is enabled.",
+     "minOSVersion": "18.0",
+     "size": 186400561,
+     "version": "0.2.0"
     }
-  ],
-  "description": "Personal repo for FlareStore. Apps I keep for myself, no more downloading and unzipping on the phone.",
-  "identifier": "com.panhead2016.repo",
-  "name": "iOS Apps",
-  "news": [],
-  "tintColor": "#7C3AED"
+   ]
+  },
+  {
+   "bundleIdentifier": "com.stremio.pal",
+   "developerName": "Stremio",
+   "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/stremio.png",
+   "localizedDescription": "Stremio's official app: movies, series, live TV and add-ons in one place. These are Stremio's own builds, mirrored from their CDN (dl.strem.io) to GitHub so this repo can track them - the 2.1.1 (build 25) files were verified byte-identical to Stremio's official copies.",
+   "name": "Stremio",
+   "subtitle": "Freedom to stream",
+   "tintColor": "#7A5AF8",
+   "versions": [
+    {
+     "date": "2026-11-09T14:01:00Z",
+     "downloadURL": "https://github.com/cat5edopeHA/stremio-apple-ipas/releases/download/v2.1.1b25/stremio_iOS.ipa",
+     "localizedDescription": "Build 25.",
+     "minOSVersion": "15.0",
+     "size": 84752072,
+     "version": "2.1.1"
+    },
+    {
+     "date": "2026-10-26T13:00:25Z",
+     "downloadURL": "https://github.com/cat5edopeHA/stremio-apple-ipas/releases/download/v2.1.0b24/stremio_iOS.ipa",
+     "minOSVersion": "15.0",
+     "size": 84705521,
+     "version": "2.1.0"
+    },
+    {
+     "date": "2026-09-14T13:05:34Z",
+     "downloadURL": "https://github.com/cat5edopeHA/stremio-apple-ipas/releases/download/v2.0.8b23/stremio_iOS.ipa",
+     "minOSVersion": "13.0",
+     "size": 78506200,
+     "version": "2.0.8"
+    }
+   ]
+  },
+  {
+   "bundleIdentifier": "app.vesper",
+   "developerName": "DjangoCustard225",
+   "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/vesper.png",
+   "localizedDescription": "A native iOS content hub. The IPA links straight to the official DjangoCustard225/Vesper GitHub release, and this repo tracks new releases automatically. Requires iOS 27.",
+   "name": "Vesper",
+   "subtitle": "Native iOS content hub",
+   "tintColor": "#4F46E5",
+   "versions": [
+    {
+     "date": "2026-11-04T08:11:28Z",
+     "downloadURL": "https://github.com/DjangoCustard225/Vesper/releases/download/v0.5.2/Vesper.ipa",
+     "minOSVersion": "27.0",
+     "size": 15722959,
+     "version": "0.5.2"
+    }
+   ]
+  },
+  {
+   "bundleIdentifier": "dev.playport.app",
+   "developerName": "playportdev",
+   "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/playport.png",
+   "localizedDescription": "Playport runs Windows games - 64-bit and 32-bit - on a stock, non-jailbroken iPhone: install a game from your library, pick up a controller, and play. The game runs on the phone's own CPU and GPU - no PC, no cloud, no streaming. The IPA links straight to the official playportdev/playport GitHub release, and this repo tracks new releases automatically.",
+   "name": "Playport",
+   "subtitle": "Windows games on iOS",
+   "tintColor": "#2563EB",
+   "versions": [
+    {
+     "date": "2026-11-02T10:13:17Z",
+     "downloadURL": "https://github.com/playportdev/playport/releases/download/v0.5.0/Playport-0.5.0.ipa",
+     "minOSVersion": "26.0",
+     "size": 413322913,
+     "version": "0.5.0"
+    }
+   ]
+  },
+  {
+   "bundleIdentifier": "thewonderofyou.Feather",
+   "developerName": "khcrysalis",
+   "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/feather.png",
+   "localizedDescription": "A free, open-source on-device app manager and installer for iPhone and iPad. Import your signing certificate (P12 + provisioning profile) and Feather signs and installs apps right on the device - no computer needed. It browses AltStore-format sources, including this one, so your shelves work in Feather too. The IPA links straight to the official khcrysalis/Feather GitHub release, and this repo tracks new releases automatically.",
+   "name": "Feather",
+   "subtitle": "On-device app manager & signer",
+   "tintColor": "#0284C7",
+   "versions": [
+    {
+     "date": "2026-07-05T02:11:53Z",
+     "downloadURL": "https://github.com/khcrysalis/Feather/releases/download/v2.9.0/Feather.ipa",
+     "minOSVersion": "16.0",
+     "size": 14241853,
+     "version": "2.9.0"
+    }
+   ]
+  },
+  {
+   "bundleIdentifier": "com.aoshuang.manicemu",
+   "developerName": "Manic-EMU",
+   "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/manicemu.png",
+   "localizedDescription": "An all-in-one retro game emulator for iOS, packing many systems - including Nintendo, 3DS and Wii cores - into one clean app. This is the project's Sideload JIT build from their official GitHub releases. The IPA links straight to the official Manic-EMU/ManicEMU release, and this repo tracks new releases automatically.",
+   "name": "Manic EMU",
+   "subtitle": "All-in-one retro emulator",
+   "tintColor": "#EA580C",
+   "versions": [
+    {
+     "date": "2026-11-02T08:03:58Z",
+     "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v2.0.2/ManicEMU.v2.0.2.SideloadJIT.ipa",
+     "localizedDescription": "Improved 3DS performance, Azahar core and Home Menu improvements, Wii pointer fixes, and more.",
+     "minOSVersion": "15.0",
+     "size": 293317769,
+     "version": "2.0.2"
+    }
+   ]
+  },
+  {
+   "bundleIdentifier": "me.oatmealdome.DolphiniOS-njb-patreon-beta",
+   "developerName": "OatmealDome",
+   "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/dolphinios.png",
+   "localizedDescription": "The official iOS port of the Dolphin emulator: GameCube and Wii games on iPhone and iPad. These are the project's current public beta builds (the 5.0.0 line) in the Non-Jailbroken flavor, linked straight from the official OatmealDome/dolphin-ios GitHub releases, and this repo tracks new releases automatically. Full speed needs JIT, which a JIT enabler app can provide.",
+   "name": "DolphiniOS",
+   "subtitle": "GameCube & Wii emulator",
+   "tintColor": "#007AFF",
+   "versions": [
+    {
+     "date": "2026-06-20T07:01:54Z",
+     "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b6/Non-Jailbroken.ipa",
+     "localizedDescription": "Public beta 6 - adds JIT support on iOS 26.6 and iOS 27 beta, per the project's changelog.",
+     "minOSVersion": "14.0",
+     "size": 17963367,
+     "version": "5.0.0b6"
+    }
+   ]
+  },
+  {
+   "bundleIdentifier": "com.xd.mbp31",
+   "developerName": "MovieBox Pro",
+   "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/movieboxpro.png",
+   "localizedDescription": "MovieBox Pro's official iOS app for movies and TV streaming. The project distributes the IPA from its own site (movieboxpro.app) rather than GitHub; this repo tracks the site's current build automatically, and each entry links to that version's file on their CDN. There is no Apple TV version - their TV app is for Android TV only.",
+   "name": "MovieBoxPro",
+   "subtitle": "Movies & TV streaming",
+   "tintColor": "#E11D48",
+   "versions": [
+    {
+     "date": "2026-11-02T06:28:31Z",
+     "downloadURL": "https://images.chuaxin.com/app/ios_ipa/MovieBoxPro_16.5.ipa",
+     "minOSVersion": "15.0",
+     "size": 51015578,
+     "version": "16.5"
+    }
+   ]
+  },
+  {
+   "bundleIdentifier": "com.nuvio.media",
+   "developerName": "Unofficial Nuvio",
+   "iconURL": "https://raw.githubusercontent.com/luqmanfadlli/NuvioMobile-Enhanced/enhanced/iosApp/iosApp/Assets.xcassets/AppIcon.appiconset/app-icon-1024.png",
+   "localizedDescription": "A free, open-source media app for your phone, your desktop, and the TV you already own. Bring your own sources. Nuvio turns them into a library with artwork, ratings, subtitles, and your place saved on every screen.",
+   "name": "Nuvio Enhanced",
+   "subtitle": "A free, open-source media app for your phone, your desktop, and the TV you already own.",
+   "tintColor": "#1E88E5",
+   "versions": [
+    {
+     "date": "2026-11-10T08:54:47Z",
+     "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.6.11-beta/nuvio-0.6.11-enhanced-release.ipa",
+     "localizedDescription": "Playback memory optimizations for iPhone and a lighter mpv setup; subtitle shadow, outline and blur; sign-in stays put when a session refresh fails, plus player fixes.",
+     "minOSVersion": "16.1",
+     "size": 75396411,
+     "version": "0.6.11"
+    }
+   ]
+  },
+  {
+   "bundleIdentifier": "com.google.ios.youtube",
+   "developerName": "mrdrvt99",
+   "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/youtubeplus.png",
+   "localizedDescription": "YouTubePlus (the YouProEXTRA build): a tweaked YouTube app based on YTLite Plus with a stack of extra tweaks baked in — a downloads manager, full 4K HDR, background playback and picture-in-picture, Return YouTube Dislike, quality pickers and more. It keeps the stock YouTube bundle ID, so it installs as the YouTube app itself. Requires iOS 17+.",
+   "name": "YouTubePlus",
+   "subtitle": "YouTube with YTLite Plus + extra tweaks (YouProEXTRA)",
+   "tintColor": "#FF0000",
+   "versions": [
+    {
+     "date": "2026-11-08T21:13:02Z",
+     "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.45.4_6.0.ipa",
+     "localizedDescription": "YouTube 21.45.4 with YouTubePlus 6.0: downloads manager, full 4K HDR, Liquid Glass support, plus YouPiP, YouQuality, YouChooseQuality, Return YouTube Dislike and more. Requires iOS 17+.",
+     "minOSVersion": "17.0",
+     "size": 152222295,
+     "version": "21.45.4"
+    }
+   ]
+  }
+ ],
+ "description": "Personal repo for FlareStore. Apps I keep for myself, no more downloading and unzipping on the phone.",
+ "identifier": "com.panhead2016.repo",
+ "name": "iOS Apps",
+ "news": [],
+ "tintColor": "#7C3AED"
 }
