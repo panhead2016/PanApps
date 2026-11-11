@@ -1,53 +1,59 @@
 {
-  "watch": [
-    {
-      "bundleIdentifier": "com.willfaust.madeora",
-      "name": "Madeira",
-      "repo": "willfaust/Madeira"
-    },
-    {
-      "asset": "stremio_iOS.ipa",
-      "bundleIdentifier": "com.stremio.pal",
-      "name": "Stremio",
-      "repo": "cat5edopeHA/stremio-apple-ipas"
-    },
-    {
-      "bundleIdentifier": "app.vesper",
-      "name": "Vesper",
-      "repo": "DjangoCustard225/Vesper"
-    },
-    {
-      "bundleIdentifier": "dev.playport.app",
-      "name": "Playport",
-      "repo": "playportdev/playport"
-    },
-    {
-      "bundleIdentifier": "thewonderofyou.Feather",
-      "name": "Feather",
-      "repo": "khcrysalis/Feather"
-    },
-    {
-      "bundleIdentifier": "com.aoshuang.manicemu",
-      "name": "Manic EMU",
-      "repo": "Manic-EMU/ManicEMU"
-    },
-    {
-      "asset": "Non-Jailbroken.ipa",
-      "bundleIdentifier": "me.oatmealdome.DolphiniOS-njb-patreon-beta",
-      "includePrereleases": true,
-      "name": "DolphiniOS",
-      "repo": "OatmealDome/dolphin-ios"
-    },
-    {
-      "bundleIdentifier": "com.xd.mbp31",
-      "directIpa": "https://www.movieboxpro.app/ipa",
-      "name": "MovieBoxPro"
-    },
-    {
-      "assetContains": "enhanced-release.ipa",
-      "bundleIdentifier": "com.nuvio.media",
-      "name": "Nuvio Enhanced",
-      "repo": "luqmanfadlli/NuvioMobile-Enhanced"
-    }
-  ]
+ "watch": [
+  {
+   "bundleIdentifier": "com.willfaust.madeora",
+   "name": "Madeira",
+   "repo": "willfaust/Madeira"
+  },
+  {
+   "asset": "stremio_iOS.ipa",
+   "bundleIdentifier": "com.stremio.pal",
+   "name": "Stremio",
+   "repo": "cat5edopeHA/stremio-apple-ipas"
+  },
+  {
+   "bundleIdentifier": "app.vesper",
+   "name": "Vesper",
+   "repo": "DjangoCustard225/Vesper"
+  },
+  {
+   "bundleIdentifier": "dev.playport.app",
+   "name": "Playport",
+   "repo": "playportdev/playport"
+  },
+  {
+   "bundleIdentifier": "thewonderofyou.Feather",
+   "name": "Feather",
+   "repo": "khcrysalis/Feather"
+  },
+  {
+   "bundleIdentifier": "com.aoshuang.manicemu",
+   "name": "Manic EMU",
+   "repo": "Manic-EMU/ManicEMU"
+  },
+  {
+   "asset": "Non-Jailbroken.ipa",
+   "bundleIdentifier": "me.oatmealdome.DolphiniOS-njb-patreon-beta",
+   "includePrereleases": true,
+   "name": "DolphiniOS",
+   "repo": "OatmealDome/dolphin-ios"
+  },
+  {
+   "bundleIdentifier": "com.xd.mbp31",
+   "directIpa": "https://www.movieboxpro.app/ipa",
+   "name": "MovieBoxPro"
+  },
+  {
+   "assetContains": "enhanced-release.ipa",
+   "bundleIdentifier": "com.nuvio.media",
+   "name": "Nuvio Enhanced",
+   "repo": "luqmanfadlli/NuvioMobile-Enhanced"
+  },
+  {
+   "assetContains": "YouTubePlus",
+   "bundleIdentifier": "com.google.ios.youtube",
+   "name": "YouTubePlus",
+   "repo": "mrdrvt99/YouProEXTRA"
+  }
+ ]
 }
