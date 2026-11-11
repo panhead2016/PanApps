@@ -60,6 +60,12 @@
    "bundleIdentifier": "org.provenance-emu.provenance",
    "name": "Provenance",
    "repo": "Provenance-Emu/Provenance"
+  },
+  {
+   "assetContains": "StikDebug",
+   "bundleIdentifier": "com.stik.stikdebug",
+   "name": "StikDebug",
+   "repo": "StikDebug/StikDebug"
   }
  ]
 }
