@@ -218,6 +218,25 @@
      "version": "3.3.0"
     }
    ]
+  },
+  {
+   "bundleIdentifier": "com.stik.stikdebug",
+   "developerName": "StikDebug",
+   "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/stikdebug.png",
+   "localizedDescription": "StikDebug is an on-device JIT enabler and debugger for sideloaded apps on iOS 17.4 and later — it's what lets emulators like Manic EMU and DolphiniOS run at full speed without a computer attached. One-time setup needs a device pairing file and a loopback VPN (LocalDevVPN); on iOS 26 and later it uses its script-based JIT path.",
+   "name": "StikDebug",
+   "subtitle": "On-device JIT enabler and device toolbox",
+   "tintColor": "#3B86F7",
+   "versions": [
+    {
+     "date": "2026-11-08T22:05:57Z",
+     "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.2.2/StikDebug-3.2.2.ipa",
+     "localizedDescription": "3.2.2: fixes for the Utsuro, Henge and MeloCafe JIT scripts.",
+     "minOSVersion": "17.4",
+     "size": 16924687,
+     "version": "3.2.2"
+    }
+   ]
   }
  ],
  "description": "Personal repo for FlareStore. Apps I keep for myself, no more downloading and unzipping on the phone.",
