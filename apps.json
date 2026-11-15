@@ -180,6 +180,14 @@
       "tintColor": "#1E88E5",
       "versions": [
         {
+          "version": "0.6.13",
+          "date": "2026-11-15T02:58:11Z",
+          "size": 75644478,
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.6.13-beta/nuvio-0.6.13-enhanced-release.ipa",
+          "localizedDescription": "- fix(app): log the mapped network condition after the upstream merge @luqmanfadlli \n- fix(details): apply the Simkl More Like This source @luqmanfadlli\n- feat(grid): show 6 posters per row in landscape, 7 on tablets @luqmanfadlli\n- fix(ios): keep the folder header below the landscape native bar @luqmanfadlli\n- feat(ios): apply Dolby Vision RPU reshaping in Picture in Picture @luqmanfadlli\n- fix(ios): extend toolbar fade to screen edges in landscape @luqmanfadlli\n- fix(ios): collapse collection header under the native bar @luqmanfadlli\n- fix(collection): keep folder cover visible under glass...",
+          "minOSVersion": "16.1"
+        },
+        {
           "version": "0.6.12",
           "date": "2026-11-13T01:28:27Z",
           "size": 75542331,
@@ -206,6 +214,14 @@
       "subtitle": "YouTube with YTLite Plus + extra tweaks (YouProEXTRA)",
       "tintColor": "#FF0000",
       "versions": [
+        {
+          "version": "21.46.3",
+          "date": "2026-11-15T19:19:09Z",
+          "size": 153609806,
+          "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa8/YouTubePlus_21.46.3_6.0.ipa",
+          "localizedDescription": "Latest Release, ENJOY!!\n\nCracked by [@Spy_G](https://t.me/spyg_vault)\n\n> [!NOTE]\n> - 🔑 No subscription required. \n> - ✅ New Downloads manager.\n> - 📺 Full 4KHDR support.\n> - 📝 [6.0 release notes](https://github.com/dayanch96/YTLite/releases/tag/v6.0)\n> - 🫧  Liquid Glass and iPhone Duo support.\n>\n> - - -\n> #### Extra Tweaks: \n> - `YouPip` `YTweaks` `Gonerino` `YTABConfig` `YouQuality` `YouChooseQuality` `YouGetCaption` `YTHoldForSpeed` `YTNativeShare`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `VolumeBoostYT`\n\n> [!WARNING]\n> - 21.34.3+ builds require...",
+          "minOSVersion": "17.0"
+        },
         {
           "date": "2026-11-08T21:13:02Z",
           "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.45.4_6.0.ipa",
