@@ -261,6 +261,25 @@
           "version": "3.2.2"
         }
       ]
+    },
+    {
+      "bundleIdentifier": "com.vmlite.cafari",
+      "developerName": "rPlayAI",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/cafari.png",
+      "localizedDescription": "Cafari is a Chromium-based casting browser that sends YouTube and other web video to your CarPlay screen, a Chromecast, an AirPlay receiver or DLNA. Two catches: video on the car's own CarPlay screen depends on Apple-granted signing entitlements, so it may not survive re-signing with your own certificate; and each build expires about 90 days after release (this one on 2027-01-13), so it needs regular updates — the repo's sync bot tracks new builds.",
+      "name": "Cafari",
+      "subtitle": "A casting browser: web video to Chromecast, AirPlay, or the car screen.",
+      "tintColor": "#1A73E8",
+      "versions": [
+        {
+          "date": "2026-10-15T00:00:00Z",
+          "downloadURL": "https://github.com/rPlayAI/cafari-public/releases/download/v152.0.7956.881/Cafari-152.0.7956.881-expires-2027-01-13.ipa",
+          "localizedDescription": "Build 152.0.7956.881. Expires 2027-01-13.",
+          "minOSVersion": "18.0",
+          "size": 69774529,
+          "version": "152.7956.0"
+        }
+      ]
     }
   ],
   "description": "Personal repo for FlareStore. Apps I keep for myself, no more downloading and unzipping on the phone.",
