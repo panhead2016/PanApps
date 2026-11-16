@@ -66,6 +66,12 @@
    "bundleIdentifier": "com.stik.stikdebug",
    "name": "StikDebug",
    "repo": "StikDebug/StikDebug"
+  },
+  {
+   "assetContains": "Cafari",
+   "bundleIdentifier": "com.vmlite.cafari",
+   "name": "Cafari",
+   "repo": "rPlayAI/cafari-public"
   }
  ]
 }
