@@ -280,6 +280,25 @@
           "version": "152.7956.0"
         }
       ]
+    },
+    {
+      "bundleIdentifier": "tv.twitch",
+      "developerName": "gunnerkidBT",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/twitchadblock.png",
+      "localizedDescription": "The stock Twitch app with the TwitchAdBlock mod baked in — ads blocked on live streams and VODs, including pre-rolls, mid-rolls, feed banners and sponsor spots. It keeps the stock tv.twitch bundle ID, so it installs in place of the official Twitch app rather than alongside it.",
+      "name": "TwitchAdBlock",
+      "subtitle": "Twitch with ads blocked",
+      "tintColor": "#9146FF",
+      "versions": [
+        {
+          "date": "2026-11-15T21:45:40Z",
+          "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.9-0.1.21/tv.twitch-31.9-TwitchAdBlock-0.1.21.ipa",
+          "localizedDescription": "Twitch 31.9 with TwitchAdBlock mod 0.1.21 (full build, app extensions included).",
+          "minOSVersion": "16.4",
+          "size": 196569728,
+          "version": "31.9"
+        }
+      ]
     }
   ],
   "description": "Personal repo for FlareStore. Apps I keep for myself, no more downloading and unzipping on the phone.",
