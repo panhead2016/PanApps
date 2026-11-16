@@ -216,19 +216,11 @@
       "versions": [
         {
           "version": "21.46.3",
-          "date": "2026-11-15T19:19:09Z",
-          "size": 153609806,
-          "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa8/YouTubePlus_21.46.3_6.0.ipa",
+          "date": "2026-11-15T20:27:47Z",
+          "size": 153406238,
+          "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.46.3_6.0.ipa",
           "localizedDescription": "Latest Release, ENJOY!!\n\nCracked by [@Spy_G](https://t.me/spyg_vault)\n\n> [!NOTE]\n> - 🔑 No subscription required. \n> - ✅ New Downloads manager.\n> - 📺 Full 4KHDR support.\n> - 📝 [6.0 release notes](https://github.com/dayanch96/YTLite/releases/tag/v6.0)\n> - 🫧  Liquid Glass and iPhone Duo support.\n>\n> - - -\n> #### Extra Tweaks: \n> - `YouPip` `YTweaks` `Gonerino` `YTABConfig` `YouQuality` `YouChooseQuality` `YouGetCaption` `YTHoldForSpeed` `YTNativeShare`\n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari Extension)` `VolumeBoostYT`\n\n> [!WARNING]\n> - 21.34.3+ builds require...",
           "minOSVersion": "17.0"
-        },
-        {
-          "date": "2026-11-08T21:13:02Z",
-          "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa7/YouTubePlus_21.45.4_6.0.ipa",
-          "localizedDescription": "YouTube 21.45.4 with YouTubePlus 6.0: downloads manager, full 4K HDR, Liquid Glass support, plus YouPiP, YouQuality, YouChooseQuality, Return YouTube Dislike and more. Requires iOS 17+.",
-          "minOSVersion": "17.0",
-          "size": 152222295,
-          "version": "21.45.4"
         }
       ]
     },
