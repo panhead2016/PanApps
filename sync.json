@@ -72,6 +72,12 @@
    "bundleIdentifier": "com.vmlite.cafari",
    "name": "Cafari",
    "repo": "rPlayAI/cafari-public"
+  },
+  {
+   "assetContains": "TwitchAdBlock",
+   "bundleIdentifier": "tv.twitch",
+   "name": "TwitchAdBlock",
+   "repo": "gunnerkidBT/TwitchAdBlock"
   }
  ]
 }
