@@ -307,6 +307,101 @@
           "version": "31.9"
         }
       ]
+    },
+    {
+      "bundleIdentifier": "com.husk.app",
+      "developerName": "Leviidev",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/husk.png",
+      "localizedDescription": "Husk runs Android apps and games — and PlayStation 4 fake packages and game folders — right on your iPhone. Its translation layer runs games built with Unity, Unreal, Godot, Flutter, SDL and more natively, and a full Android system is there for everything else. Games need JIT: enable it with StikDebug (already on this shelf), its built-in StikJIT, or the Play without JIT flow after importing your certificate.",
+      "name": "Husk",
+      "subtitle": "Android apps and PS4 games on your iPhone.",
+      "tintColor": "#5865F2",
+      "versions": [
+        {
+          "date": "2026-11-05T03:33:53Z",
+          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/3.4/Husk.ipa",
+          "localizedDescription": "Version 3.4 (build 149).",
+          "minOSVersion": "15.5",
+          "size": 142303569,
+          "version": "3.4"
+        }
+      ]
+    },
+    {
+      "bundleIdentifier": "com.henge.app",
+      "developerName": "Leviidev",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/henge.png",
+      "localizedDescription": "Henge runs macOS on iPhone and iPad with its own emulator — it downloads Apple's restore image and installs macOS right on the device, no Mac needed. Safari and Discord run, and the clipboard and a shared folder work between macOS and iOS. It is emulation, so it runs slower than a real Mac. Needs JIT (StikDebug works), iOS 17 or later, an A14 or M1 chip or newer, and about 43 GB free for the macOS install.",
+      "name": "Henge",
+      "subtitle": "macOS on your iPhone and iPad.",
+      "tintColor": "#2E6BFF",
+      "versions": [
+        {
+          "date": "2026-11-10T23:53:38Z",
+          "downloadURL": "https://github.com/Leviidev/Henge/releases/download/0.3/Henge.ipa",
+          "localizedDescription": "Version 0.3.0 (build 101). Adds macOS Sonoma 14.6.1 and Ventura 13.6 installs — smaller downloads for devices short on storage.",
+          "minOSVersion": "17.0",
+          "size": 9036911,
+          "version": "0.3.0"
+        }
+      ]
+    },
+    {
+      "bundleIdentifier": "com.burbn.instagram",
+      "developerName": "Fouad Raheb",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/regram.png",
+      "localizedDescription": "The stock Instagram app with the Regram tweak baked in — download photos, videos, Reels and Stories, repost in a tap, track profile changes, unlock hidden IG+ features and more. It keeps the stock com.burbn.instagram bundle ID, so it installs in place of the official Instagram app rather than alongside it. Heads-up: the advanced features need the developer's own license (about $18, bought from Fouad Raheb directly), and this one is not tracked by the repo's sync bot — new builds are posted to the developer's own source.",
+      "name": "Regram",
+      "subtitle": "Instagram with downloads, reposts and IG+ features",
+      "tintColor": "#E1306C",
+      "versions": [
+        {
+          "date": "2026-11-09T18:45:26Z",
+          "downloadURL": "https://fouadraheb.com/dl/storage/ipa/1794250144993-bnwzh/com.burbn.instagram_454.1.0_regram_7.0.1_sl.ipa",
+          "localizedDescription": "Instagram 454.1.0 with Regram tweak 7.0.1 (full build).",
+          "minOSVersion": "16.3",
+          "size": 377517422,
+          "version": "454.1.0"
+        }
+      ]
+    },
+    {
+      "bundleIdentifier": "com.christianselig.Apollo",
+      "developerName": "Apollo-Reborn",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/apollo.png",
+      "localizedDescription": "The beloved Apollo for Reddit, brought back by the community Apollo-Reborn tweak (the successor to ImprovedCustomApi). This is the Liquid Glass build for iOS 26 and later, extensions included. On first launch the app walks you through creating your own free Reddit API credentials — that's what lets it talk to Reddit now. Everything else is the Apollo you remember: gesture controls, a proper media viewer, and no ads.",
+      "name": "Apollo",
+      "subtitle": "The award-winning Reddit app, revived",
+      "tintColor": "#4453F4",
+      "versions": [
+        {
+          "date": "2026-11-14T04:44:00Z",
+          "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_4.1.0/Apollo-Reborn-4.1.0-GLASS.ipa",
+          "localizedDescription": "Apollo 1.15.11 with Apollo-Reborn tweak 4.1.0 — Liquid Glass build, app extensions included.",
+          "minOSVersion": "15.0",
+          "size": 129416970,
+          "version": "4.1.0"
+        }
+      ]
+    },
+    {
+      "bundleIdentifier": "com.atebits.Tweetie2",
+      "developerName": "NeoFreeBird",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/neofreebird.png",
+      "localizedDescription": "The stock X app with the NeoFreeBird tweak baked in — ads blocked, video downloads, premium features unlocked and a stack of extra settings. It keeps the stock com.atebits.Tweetie2 bundle ID, so it installs in place of the official X app rather than alongside it. NeoFreeBird is a fork of BHTwitter that is now the more actively maintained of the two — this build is on the current X 12.39, while BHTwitter's last release is from May 2025.",
+      "name": "NeoFreeBird",
+      "subtitle": "X with ads blocked and extras unlocked",
+      "tintColor": "#000000",
+      "versions": [
+        {
+          "date": "2026-11-06T21:49:13Z",
+          "downloadURL": "https://github.com/NeoFreeBird/NeoFreeBird/releases/download/v7.3.1/NeoFreeBird-sideloaded-X_7.3.1_12.39.ipa",
+          "localizedDescription": "X 12.39 with NeoFreeBird tweak 7.3.1.",
+          "minOSVersion": "15.0",
+          "size": 276966090,
+          "version": "12.39"
+        }
+      ]
     }
   ],
   "description": "Personal repo for FlareStore. Apps I keep for myself, no more downloading and unzipping on the phone.",
