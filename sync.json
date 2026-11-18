@@ -78,6 +78,30 @@
    "bundleIdentifier": "tv.twitch",
    "name": "TwitchAdBlock",
    "repo": "gunnerkidBT/TwitchAdBlock"
+  },
+  {
+   "asset": "Husk.ipa",
+   "bundleIdentifier": "com.husk.app",
+   "name": "Husk",
+   "repo": "Leviidev/Husk"
+  },
+  {
+   "asset": "Henge.ipa",
+   "bundleIdentifier": "com.henge.app",
+   "name": "Henge",
+   "repo": "Leviidev/Henge"
+  },
+  {
+   "assetContains": "-GLASS.ipa",
+   "bundleIdentifier": "com.christianselig.Apollo",
+   "name": "Apollo",
+   "repo": "Balackburn/Apollo"
+  },
+  {
+   "assetContains": "sideloaded-X",
+   "bundleIdentifier": "com.atebits.Tweetie2",
+   "name": "NeoFreeBird",
+   "repo": "NeoFreeBird/NeoFreeBird"
   }
  ]
 }
