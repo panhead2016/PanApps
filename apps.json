@@ -459,6 +459,25 @@
           "version": "1.0.0"
         }
       ]
+    },
+    {
+      "bundleIdentifier": "me.cranci.sulfur",
+      "developerName": "cranci1",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/sora.png",
+      "localizedDescription": "Sora is a modular media player for iOS (this build's app bundle is named Sulfur) — a clean, ad-free player with no library of its own. Movies, shows and anime come from community modules you add yourself. It supports HLS and MP4, background playback and picture-in-picture, AniList sync, and offline watching through modules. Free and open source (GPLv3). Heads-up: no modules are included — you supply your own — and the GitHub repo is now archived, so 1.3.0 may be the final build.",
+      "name": "Sora",
+      "subtitle": "Modular streaming player — bring your own modules",
+      "tintColor": "#6366F1",
+      "versions": [
+        {
+          "date": "2026-08-20T12:21:10Z",
+          "downloadURL": "https://github.com/cranci1/Sora/releases/download/1.3.0/Sulfur.ipa",
+          "localizedDescription": "What's New: Modules Settings support; AniList sync (Watching/Planing collections). Fixes: search results being randomized; bookmark removal causing the view to close; 'Mark as Watched' option not showing; 'Watch Next' button choosing the wrong season.",
+          "minOSVersion": "15.0",
+          "size": 3112338,
+          "version": "1.3.0"
+        }
+      ]
     }
   ],
   "description": "Personal repo for FlareStore. Apps I keep for myself, no more downloading and unzipping on the phone.",
