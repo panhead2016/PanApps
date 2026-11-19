@@ -328,52 +328,6 @@
       ]
     },
     {
-      "bundleIdentifier": "com.burbn.instagram",
-      "developerName": "Fouad Raheb",
-      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/regram.png",
-      "localizedDescription": "The stock Instagram app with the Regram tweak baked in — download photos, videos, Reels and Stories, repost in a tap, track profile changes, unlock hidden IG+ features and more. It keeps the stock com.burbn.instagram bundle ID, so it installs in place of the official Instagram app rather than alongside it. Heads-up: the advanced features need the developer's own license (about $18, bought from Fouad Raheb directly), and this one is not tracked by the repo's sync bot — new builds are posted to the developer's own source.",
-      "name": "Regram",
-      "subtitle": "Instagram with downloads, reposts and IG+ features",
-      "tintColor": "#E1306C",
-      "versions": [
-        {
-          "date": "2026-11-18T18:34:41Z",
-          "downloadURL": "https://fouadraheb.com/dl/storage/ipa/1795027252741-o31hv/com.burbn.instagram_456.0.0_regram_7.1_sl.ipa",
-          "localizedDescription": "Instagram 456.0.0 with Regram tweak 7.1 (full build).",
-          "minOSVersion": "16.3",
-          "size": 391506517,
-          "version": "456.0.0"
-        },
-        {
-          "date": "2026-11-09T18:45:26Z",
-          "downloadURL": "https://fouadraheb.com/dl/storage/ipa/1794250144993-bnwzh/com.burbn.instagram_454.1.0_regram_7.0.1_sl.ipa",
-          "localizedDescription": "Instagram 454.1.0 with Regram tweak 7.0.1 (full build).",
-          "minOSVersion": "16.3",
-          "size": 377517422,
-          "version": "454.1.0"
-        }
-      ]
-    },
-    {
-      "bundleIdentifier": "com.atebits.Tweetie2",
-      "developerName": "NeoFreeBird",
-      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/neofreebird.png",
-      "localizedDescription": "The stock X app with the NeoFreeBird tweak baked in — ads blocked, video downloads, premium features unlocked and a stack of extra settings. It keeps the stock com.atebits.Tweetie2 bundle ID, so it installs in place of the official X app rather than alongside it. NeoFreeBird is a fork of BHTwitter that is now the more actively maintained of the two — this build is on the current X 12.39, while BHTwitter's last release is from May 2025.",
-      "name": "NeoFreeBird",
-      "subtitle": "X with ads blocked and extras unlocked",
-      "tintColor": "#000000",
-      "versions": [
-        {
-          "date": "2026-11-06T21:49:13Z",
-          "downloadURL": "https://github.com/NeoFreeBird/NeoFreeBird/releases/download/v7.3.1/NeoFreeBird-sideloaded-X_7.3.1_12.39.ipa",
-          "localizedDescription": "X 12.39 with NeoFreeBird tweak 7.3.1.",
-          "minOSVersion": "15.0",
-          "size": 276966090,
-          "version": "12.39"
-        }
-      ]
-    },
-    {
       "bundleIdentifier": "com.utsuro.app",
       "developerName": "Leviidev",
       "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/utsuro.png",
