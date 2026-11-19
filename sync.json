@@ -102,6 +102,30 @@
    "bundleIdentifier": "com.atebits.Tweetie2",
    "name": "NeoFreeBird",
    "repo": "NeoFreeBird/NeoFreeBird"
+  },
+  {
+   "asset": "Utsuro.ipa",
+   "bundleIdentifier": "com.utsuro.app",
+   "name": "Utsuro",
+   "repo": "Leviidev/Utsuro"
+  },
+  {
+   "asset": "AetherPS4-iOS.ipa",
+   "bundleIdentifier": "com.aether.ps4ios",
+   "name": "AetherPS4",
+   "repo": "Leviidev/AetherPS4"
+  },
+  {
+   "assetContains": "Podium",
+   "bundleIdentifier": "com.leviidev.podium",
+   "name": "Podium",
+   "repo": "Leviidev/Podium"
+  },
+  {
+   "asset": "Fathom.ipa",
+   "bundleIdentifier": "app.fathom.emulator",
+   "name": "Fathom",
+   "repo": "Leviidev/Fathom"
   }
  ]
 }
