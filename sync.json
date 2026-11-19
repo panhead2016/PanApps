@@ -120,6 +120,11 @@
    "bundleIdentifier": "app.fathom.emulator",
    "name": "Fathom",
    "repo": "Leviidev/Fathom"
+  },
+  {
+   "bundleIdentifier": "me.cranci.sulfur",
+   "name": "Sora",
+   "repo": "cranci1/Sora"
   }
  ]
 }
