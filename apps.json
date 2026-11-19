@@ -347,25 +347,6 @@
       ]
     },
     {
-      "bundleIdentifier": "com.christianselig.Apollo",
-      "developerName": "Apollo-Reborn",
-      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/apollo.png",
-      "localizedDescription": "The beloved Apollo for Reddit, brought back by the community Apollo-Reborn tweak (the successor to ImprovedCustomApi). This is the Liquid Glass build for iOS 26 and later, extensions included. On first launch the app walks you through creating your own free Reddit API credentials — that's what lets it talk to Reddit now. Everything else is the Apollo you remember: gesture controls, a proper media viewer, and no ads.",
-      "name": "Apollo",
-      "subtitle": "The award-winning Reddit app, revived",
-      "tintColor": "#4453F4",
-      "versions": [
-        {
-          "date": "2026-11-14T04:44:00Z",
-          "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_4.1.0/Apollo-Reborn-4.1.0-GLASS.ipa",
-          "localizedDescription": "Apollo 1.15.11 with Apollo-Reborn tweak 4.1.0 — Liquid Glass build, app extensions included.",
-          "minOSVersion": "15.0",
-          "size": 129416970,
-          "version": "4.1.0"
-        }
-      ]
-    },
-    {
       "bundleIdentifier": "com.atebits.Tweetie2",
       "developerName": "NeoFreeBird",
       "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/neofreebird.png",
