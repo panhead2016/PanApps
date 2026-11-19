@@ -86,12 +86,6 @@
    "repo": "Leviidev/Henge"
   },
   {
-   "assetContains": "sideloaded-X",
-   "bundleIdentifier": "com.atebits.Tweetie2",
-   "name": "NeoFreeBird",
-   "repo": "NeoFreeBird/NeoFreeBird"
-  },
-  {
    "asset": "Utsuro.ipa",
    "bundleIdentifier": "com.utsuro.app",
    "name": "Utsuro",
