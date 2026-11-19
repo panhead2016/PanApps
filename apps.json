@@ -402,6 +402,82 @@
           "version": "12.39"
         }
       ]
+    },
+    {
+      "bundleIdentifier": "com.utsuro.app",
+      "developerName": "Leviidev",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/utsuro.png",
+      "localizedDescription": "Utsuro runs Xbox One games on iPhone and iPad. It is an alpha: Minecraft: Xbox One Edition, Rocket League and Sonic Mania are confirmed starting, everything else is unconfirmed and bugs are expected. You import your own Xbox One game dumps. Needs JIT (StikDebug, already on this shelf).",
+      "name": "Utsuro",
+      "subtitle": "Alpha — Xbox One games on iPhone.",
+      "tintColor": "#107C10",
+      "versions": [
+        {
+          "date": "2026-11-01T18:28:08Z",
+          "downloadURL": "https://github.com/Leviidev/Utsuro/releases/download/0.1.0/Utsuro.ipa",
+          "localizedDescription": "Version 0.1.0 (build 1).",
+          "minOSVersion": "17.4",
+          "size": 5423119,
+          "version": "0.1.0"
+        }
+      ]
+    },
+    {
+      "bundleIdentifier": "com.aether.ps4ios",
+      "developerName": "Leviidev",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/aetherps4.png",
+      "localizedDescription": "AetherPS4 is Levi's standalone PlayStation 4 emulator for iPhone and iPad — the dedicated app and emulator core, separate from Husk's built-in PS4 layer. PS4 emulation on a phone is early days, so expect limited compatibility. Needs JIT (StikDebug, already on this shelf).",
+      "name": "AetherPS4",
+      "subtitle": "PS4 emulator for iPhone and iPad.",
+      "tintColor": "#003087",
+      "versions": [
+        {
+          "date": "2026-09-12T02:48:11Z",
+          "downloadURL": "https://github.com/Leviidev/AetherPS4/releases/download/v1.2/AetherPS4-iOS.ipa",
+          "localizedDescription": "Version 1.2.0 (build 12).",
+          "minOSVersion": "17.4",
+          "size": 34208394,
+          "version": "1.2.0"
+        }
+      ]
+    },
+    {
+      "bundleIdentifier": "com.leviidev.podium",
+      "developerName": "Leviidev",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/podium.png",
+      "localizedDescription": "Podium emulates a classic iPod Touch — it currently targets iOS 6.1.6 on the 4th-generation iPod Touch; other devices and software versions can be tried but will probably fail. For JIT, the developer says to use universal.js in StikDebug (already on this shelf).",
+      "name": "Podium",
+      "subtitle": "A classic iPod Touch on a modern iPhone.",
+      "tintColor": "#8E8E93",
+      "versions": [
+        {
+          "date": "2026-10-01T22:23:47Z",
+          "downloadURL": "https://github.com/Leviidev/Podium/releases/download/0.1.0/Podium_v0.1.0.ipa",
+          "localizedDescription": "Version 0.1.0 (build 10).",
+          "minOSVersion": "17.0",
+          "size": 5193178,
+          "version": "0.1.0"
+        }
+      ]
+    },
+    {
+      "bundleIdentifier": "app.fathom.emulator",
+      "developerName": "Leviidev",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/fathom.png",
+      "localizedDescription": "Fathom is an x86-64 PC emulator for iPhone, running guest code through FEXCore. 2048 and tic-tac-toe ship as sample programs you can add from the Library tab. Needs JIT via StikDebug (already on this shelf).",
+      "name": "Fathom",
+      "subtitle": "An x86-64 PC emulator for iPhone.",
+      "tintColor": "#0E7490",
+      "versions": [
+        {
+          "date": "2026-09-14T23:13:23Z",
+          "downloadURL": "https://github.com/Leviidev/Fathom/releases/download/v1.0.0/Fathom.ipa",
+          "localizedDescription": "Version 1.0.0 (build 1).",
+          "minOSVersion": "18.0",
+          "size": 1175175,
+          "version": "1.0.0"
+        }
+      ]
     }
   ],
   "description": "Personal repo for FlareStore. Apps I keep for myself, no more downloading and unzipping on the phone.",
