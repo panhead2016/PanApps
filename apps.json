@@ -280,6 +280,14 @@
       "tintColor": "#9146FF",
       "versions": [
         {
+          "version": "32.1",
+          "date": "2026-11-20T13:41:07Z",
+          "size": 197446639,
+          "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v32.1-0.1.22/tv.twitch-32.1-TwitchAdBlock-0.1.22.ipa",
+          "localizedDescription": "What's New\n\nWorks with Twitch 32.1. Updated to run on the latest Twitch app.\n\nBlocked the \"update Twitch\" nag. Twitch 32.x added a new update prompt that could pop up and interrupt you. It's now automatically dismissed.\n\nFixed Home launch screen on Twitch 32.x. The \"Home → Following\", \"Home → Live\", and \"Home → Clips\" launch screen options now work correctly on Twitch 32 and newer.\n\nFixed \"Go Ad-Free\" button hiding on Twitch 32.x. The declutter toggle to hide the Go Ad-Free button works again on the latest Twitch version.\n\nDownloads\n\n| File | Description |\n|------|-------------|\n|...",
+          "minOSVersion": "16.4"
+        },
+        {
           "date": "2026-11-15T21:45:40Z",
           "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.9-0.1.21/tv.twitch-31.9-TwitchAdBlock-0.1.21.ipa",
           "localizedDescription": "Twitch 31.9 with TwitchAdBlock mod 0.1.21 (full build, app extensions included).",
