@@ -62,6 +62,14 @@
       "tintColor": "#4F46E5",
       "versions": [
         {
+          "version": "0.5.4",
+          "date": "2026-11-22T14:38:06Z",
+          "size": 15884030,
+          "downloadURL": "https://github.com/DjangoCustard225/Vesper/releases/download/v0.5.4/Vesper.ipa",
+          "localizedDescription": "- Introduced widgets for Continue Watching, Up Next and your Library. Tapping a poster or title opens the stream, and posters keep their colours in Clear mode.\n- New app icon.\n- Cleaned up the API entry pages. Each sheet has a checkmark that saves and verifies your key.\n- iCloud sync for your library and add-ons. Add-ons that arrive through sync ask for your approval first.\n- Plain HTTP add-ons show a warning before install.\n- Faster launch, with your library and watch progress loading in the background.\n- Sheets close with the native Liquid Glass cross, and scroll bars are hidden throughout...",
+          "minOSVersion": "27.0"
+        },
+        {
           "version": "0.5.3",
           "date": "2026-11-13T13:32:40Z",
           "size": 15965950,

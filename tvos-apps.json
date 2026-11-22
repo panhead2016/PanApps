@@ -99,6 +99,14 @@
       "tintColor": "#0F766E",
       "versions": [
         {
+          "version": "0.17",
+          "date": "2026-11-21T22:51:44Z",
+          "size": 53013717,
+          "downloadURL": "https://github.com/prehakanson-art/OrivioTVAppleTV/releases/download/v0.17/OrivioTV-V0.17.Sideload.ipa",
+          "localizedDescription": "Orivio TV v0.17\n\nSideload both files the usual way: Sideload.ipa installs alongside an existing Orivio with its own data, Sideloadly.ipa updates an existing sideloaded install in place.\n\nWhat's new\n\n🗑️ Remove from Continue Watching works right away, every time.\n- Removing a title used to take up to 2 minutes to show, because Home only noticed on the next sync. It now disappears the moment you press Remove.\n- After removing a few titles, the rest sometimes wouldn't remove at all, mainly \"Next Up\" episodes. Fixed.\n- Removed titles stay removed. A sync from Trakt or another device could quietly...",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.16",
           "date": "2026-11-16T19:17:21Z",
           "size": 53005520,
