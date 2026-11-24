@@ -81,22 +81,6 @@
           "minOSVersion": "18.0"
         },
         {
-          "version": "3.5.2",
-          "date": "2026-11-16T18:52:16Z",
-          "size": 92572984,
-          "downloadURL": "https://github.com/bobsupra/NuvioTVOS/releases/download/tvos-beta-3.5.2/NuvioTV-3.5.2-unsigned-release.ipa",
-          "localizedDescription": "tvOS Beta 3.5.2\n\n> Install: [NuvioTV-3.5.2-unsigned-release.ipa](https://github.com/bobsupra/NuvioTVOS/releases/download/tvos-beta-3.5.2/NuvioTV-3.5.2-unsigned-release.ipa) requires a compatible tvOS development or sideloading signing workflow before installation.\n\n> New beta alerts: [Manage notifications](https://github.com/bobsupra/NuvioTVOS/subscription) → choose Custom → Releases · [Report a bug or suggest an idea](https://github.com/bobsupra/NuvioTVOS/issues/new/choose)\n\n> Join the community: [NuvioTVOS Discord](https://discord.gg/2YnNr2xmnJ) — chat, get help, report bugs, and share...",
-          "minOSVersion": "18.0"
-        },
-        {
-          "version": "3.5.1",
-          "date": "2026-11-10T19:40:55Z",
-          "size": 70897185,
-          "downloadURL": "https://github.com/bobsupra/NuvioTVOS/releases/download/tvos-beta-3.5.1/NuvioTV-3.5.1-unsigned-release.ipa",
-          "localizedDescription": "tvOS Beta 3.5.1\n\n> Install: [NuvioTV-3.5.1-unsigned-release.ipa](https://github.com/bobsupra/NuvioTVOS/releases/download/tvos-beta-3.5.1/NuvioTV-3.5.1-unsigned-release.ipa) requires a compatible tvOS development or sideloading signing workflow before installation.\n\n> New beta alerts: [Manage notifications](https://github.com/bobsupra/NuvioTVOS/subscription) → choose Custom → Releases · [Report a bug or suggest an idea](https://github.com/bobsupra/NuvioTVOS/issues/new/choose)\n\n> Join the community: [NuvioTVOS Discord](https://discord.gg/2YnNr2xmnJ) — chat, get help, report bugs, and share...",
-          "minOSVersion": "18.0"
-        },
-        {
           "date": "2026-11-06T17:00:27Z",
           "downloadURL": "https://github.com/bobsupra/NuvioTVOS/releases/download/tvos-beta-3.5.0/NuvioTV-3.5.0-unsigned-release.ipa",
           "minOSVersion": "18.0",
@@ -123,38 +107,11 @@
           "minOSVersion": "17.0"
         },
         {
-          "version": "0.16",
-          "date": "2026-11-16T19:17:21Z",
-          "size": 53005520,
-          "downloadURL": "https://github.com/prehakanson-art/OrivioTVAppleTV/releases/download/v0.16/OrivioTV-V0.16.Sideload.ipa",
-          "localizedDescription": "Orivio TV v0.16\n\nSideload both files the usual way: Sideload.ipa installs alongside an existing Orivio with its own data, Sideloadly.ipa updates an existing sideloaded install in place.\n\nWhat's new\n\n🎬 Movies play smoothly at 24 Hz. Films kept a steady stutter because the player always asked the TV for 60 Hz, which overrode the Apple TV's own Match Frame Rate. 23.976 fps film was forced into 3:2 pulldown. The player now asks for the film's real frame rate, including on SDR titles, which used to ask for nothing. Turn on Settings → Video and Audio → Match Content → Match Frame Rate on the Apple...",
-          "minOSVersion": "17.0"
-        },
-        {
           "date": "2026-11-01T04:59:22Z",
           "downloadURL": "https://github.com/prehakanson-art/OrivioTVAppleTV/releases/download/v0.15/OrivioTV-V0.15.Sideload.ipa",
           "minOSVersion": "17.0",
           "size": 52895055,
           "version": "0.15"
-        }
-      ]
-    },
-    {
-      "bundleIdentifier": "org.provenance-emu.provenance",
-      "developerName": "Provenance-Emu",
-      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/provenance.png",
-      "localizedDescription": "Provenance is a multi-system retro emulator for Apple TV covering 60+ systems — Nintendo, Sega, Atari, Sony and more — with a redesigned tvOS interface, iCloud sync for ROMs, saves and artwork, RetroAchievements and video filters. Open source by the Provenance team; builds link straight to their official GitHub releases.",
-      "name": "Provenance",
-      "subtitle": "Multi-system retro emulator — 60+ systems",
-      "tintColor": "#0060E0",
-      "versions": [
-        {
-          "date": "2026-03-14T02:17:44Z",
-          "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-tvOS.ipa",
-          "localizedDescription": "3.3.0: iCloud/CloudKit sync for ROMs, save states, BIOS files and artwork; a completely redesigned tvOS interface; a unified video filter and shader pipeline across cores; RetroArch GLES 3D core support; and a long list of core, controller and stability fixes.",
-          "minOSVersion": "17.6",
-          "size": 781548550,
-          "version": "3.3.0"
         }
       ]
     }
