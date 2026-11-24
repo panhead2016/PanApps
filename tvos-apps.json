@@ -114,6 +114,21 @@
           "version": "0.15"
         }
       ]
+    },
+    {
+      "name": "Provenance",
+      "bundleIdentifier": "org.provenance-emu.provenance",
+      "developerName": "Provenance-Emu",
+      "versions": [
+        {
+          "version": "3.3.0",
+          "date": "2026-03-14T02:17:44Z",
+          "size": 781548550,
+          "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-tvOS.ipa",
+          "localizedDescription": "What's New in 3.3.0\n\nThis is a big one. Four months of work since 3.2.1 covering iCloud sync, a completely revamped tvOS interface, video filters, and a ton of core and stability fixes.\n\n☁️ iCloud / CloudKit Sync\n- ROMs, save states, BIOS files, and artwork now sync across devices via iCloud\n- Real-time download progress indicators when loading cloud save states\n- Auto BIOS sync on game load when available in iCloud\n- ROM metadata syncs alongside files\n- Artwork syncs after library updates\n- CloudKit records management tab in Settings\n- iCloud upsell UI for new users with empty libraries\n-...",
+          "minOSVersion": "17.6"
+        }
+      ]
     }
   ],
   "news": []
