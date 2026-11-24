@@ -14,6 +14,14 @@
       "tintColor": "#7A5AF8",
       "versions": [
         {
+          "version": "2.1.2",
+          "date": "2026-11-23T14:01:08Z",
+          "size": 78014855,
+          "downloadURL": "https://github.com/cat5edopeHA/stremio-apple-ipas/releases/download/v2.1.2b27/stremio_tvOS.ipa",
+          "localizedDescription": "Stremio v2.1.2b27\n\n- Version: `2.1.2`\n- Build: `27`\n- Release date: `2026-11-18`\n- Minimum OS: iOS `15.0`; tvOS `15.0`\n\nSHA-256\n\n- iOS IPA: `6e4126bc1afeaf5bb9abd97c230a341e2eecf26e37b0ed41ce5b5852e39bd37a`\n- tvOS IPA: `0c2742a7b9ad2c0d867f28314e47d7a7b049b58f2ba01f1b2495d234419f457a`\n\nSources\n\n- AltStore source: https://dl.strem.io/apple/altstore/source.json\n- Manifest: https://dl.strem.io/apple/altstore/stremio/2.1.2-27/manifest.json\n- iOS IPA: https://dl.strem.io/apple/2.1.2b27/ios/stremio_iOS.ipa\n- tvOS IPA: https://dl.strem.io/apple/2.1.2b27/tvos/stremio_tvOS.ipa",
+          "minOSVersion": "15.0"
+        },
+        {
           "date": "2026-11-09T14:01:00Z",
           "downloadURL": "https://github.com/cat5edopeHA/stremio-apple-ipas/releases/download/v2.1.1b25/stremio_tvOS.ipa",
           "localizedDescription": "Build 25.",
@@ -64,6 +72,14 @@
       "subtitle": "Nuvio tvOS client (bobsupra)",
       "tintColor": "#0891B2",
       "versions": [
+        {
+          "version": "3.5.3",
+          "date": "2026-11-23T20:10:57Z",
+          "size": 97240438,
+          "downloadURL": "https://github.com/bobsupra/NuvioTVOS/releases/download/tvos-beta-3.5.3/NuvioTV-3.5.3-unsigned-release.ipa",
+          "localizedDescription": "tvOS Beta 3.5.3\n\n> Install: [NuvioTV-3.5.3-unsigned-release.ipa](https://github.com/bobsupra/NuvioTVOS/releases/download/tvos-beta-3.5.3/NuvioTV-3.5.3-unsigned-release.ipa) requires a compatible tvOS development or sideloading signing workflow before installation.\n\n> New beta alerts: [Manage notifications](https://github.com/bobsupra/NuvioTVOS/subscription) → choose Custom → Releases · [Report a bug or suggest an idea](https://github.com/bobsupra/NuvioTVOS/issues/new/choose)\n\n> Join the community: [NuvioTVOS Discord](https://discord.gg/2YnNr2xmnJ) — chat, get help, report bugs, and share...",
+          "minOSVersion": "18.0"
+        },
         {
           "version": "3.5.2",
           "date": "2026-11-16T18:52:16Z",

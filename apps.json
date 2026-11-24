@@ -29,6 +29,14 @@
       "tintColor": "#7A5AF8",
       "versions": [
         {
+          "version": "2.1.2",
+          "date": "2026-11-23T14:01:08Z",
+          "size": 88256855,
+          "downloadURL": "https://github.com/cat5edopeHA/stremio-apple-ipas/releases/download/v2.1.2b27/stremio_iOS.ipa",
+          "localizedDescription": "Stremio v2.1.2b27\n\n- Version: `2.1.2`\n- Build: `27`\n- Release date: `2026-11-18`\n- Minimum OS: iOS `15.0`; tvOS `15.0`\n\nSHA-256\n\n- iOS IPA: `6e4126bc1afeaf5bb9abd97c230a341e2eecf26e37b0ed41ce5b5852e39bd37a`\n- tvOS IPA: `0c2742a7b9ad2c0d867f28314e47d7a7b049b58f2ba01f1b2495d234419f457a`\n\nSources\n\n- AltStore source: https://dl.strem.io/apple/altstore/source.json\n- Manifest: https://dl.strem.io/apple/altstore/stremio/2.1.2-27/manifest.json\n- iOS IPA: https://dl.strem.io/apple/2.1.2b27/ios/stremio_iOS.ipa\n- tvOS IPA: https://dl.strem.io/apple/2.1.2b27/tvos/stremio_tvOS.ipa",
+          "minOSVersion": "15.0"
+        },
+        {
           "date": "2026-11-09T14:01:00Z",
           "downloadURL": "https://github.com/cat5edopeHA/stremio-apple-ipas/releases/download/v2.1.1b25/stremio_iOS.ipa",
           "localizedDescription": "Build 25.",
@@ -230,6 +238,14 @@
       "subtitle": "YouTube with YTLite Plus + extra tweaks (YouProEXTRA)",
       "tintColor": "#FF0000",
       "versions": [
+        {
+          "version": "21.47.6",
+          "date": "2026-11-22T23:58:23Z",
+          "size": 154815652,
+          "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa9/YouTubePlus_21.47.6_6.0.ipa",
+          "localizedDescription": "Latest Release, ENJOY!!\n\nCracked by [@Spy_G](https://t.me/spyg_vault)\n\n> [!NOTE]\n> - 🔑 No subscription required. \n> - ✅ New Downloads manager.\n> - 📺 Full 4KHDR support.\n> - 📝 [6.0 release notes](https://github.com/dayanch96/YTLite/releases/tag/v6.0)\n> - 🫧  Liquid Glass and iPhone Duo support.\n> - 🆕 `YTLowContrastMode` tweak, enabled by default.\n>\n> - - -\n> #### Extra Tweaks: \n> - `YouPip` `YTweaks` `YTABConfig` `YouQuality` `YouChooseQuality` `YouGetCaption` `YTHoldForSpeed` `YTNativeShare`  `YTLowContrastMode` \n> -  `Return-YouTube-Dislikes` `DontEatMyContent` `Open in YouTube (Safari...",
+          "minOSVersion": "17.0"
+        },
         {
           "version": "21.46.3",
           "date": "2026-11-15T20:27:47Z",
