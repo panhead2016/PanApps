@@ -113,6 +113,13 @@
    "bundleIdentifier": "me.cranci.sulfur",
    "name": "Sora",
    "repo": "cranci1/Sora"
+  },
+  {
+   "asset": "Halo-CE-iOS-unsigned.ipa",
+   "bundleIdentifier": "org.haloce.ios",
+   "includePrereleases": true,
+   "name": "Halo: CE",
+   "repo": "NicholasDominici/halo-ce-ios"
   }
  ]
 }
