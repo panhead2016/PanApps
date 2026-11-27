@@ -461,6 +461,25 @@
           "version": "1.3.0"
         }
       ]
+    },
+    {
+      "bundleIdentifier": "org.haloce.ios",
+      "developerName": "NicholasDominici",
+      "iconURL": "https://raw.githubusercontent.com/panhead2016/PanApps/main/Icons/halo-ce.png",
+      "localizedDescription": "Halo: Combat Evolved running natively on iPhone and iPad \u2014 a port of the Halo decompilation projects, compiled for ARM64 with OpenGL ES 3 graphics, SDL audio and on-screen touch controls. No game data is included: open the app, tap Choose Halo XISO, and import your own disc image from the original Xbox release (NTSC-US or PAL). The app extracts the maps on-device, then the game starts. Still early \u2014 expect the odd bug.",
+      "name": "Halo: CE",
+      "subtitle": "The original Xbox Halo, native on iOS",
+      "tintColor": "#556B2F",
+      "versions": [
+        {
+          "date": "2026-09-28T18:39:38Z",
+          "downloadURL": "https://github.com/NicholasDominici/halo-ce-ios/releases/download/v0.1.2-ios/Halo-CE-iOS-unsigned.ipa",
+          "localizedDescription": "Version 0.1.2 (build 6). Renders at native display resolution by default, with landscape gameplay and importing. Optional lower render resolution via the [display] section of Documents/config.toml.",
+          "minOSVersion": "16.0",
+          "size": 5663938,
+          "version": "0.1.2"
+        }
+      ]
     }
   ],
   "description": "Personal repo for FlareStore. Apps I keep for myself, no more downloading and unzipping on the phone.",
